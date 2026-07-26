@@ -125,15 +125,15 @@ main { flex: 1 1 auto; min-height: 0; padding: 8px 8px 0; overflow: hidden; }
 
 body.modal-open { overflow: hidden; }
 .chart-modal[hidden] { display: none; }
-.chart-modal { position: fixed; inset: 0; z-index: 200; display: grid; place-items: center; padding: 24px; }
+.chart-modal { position: fixed; inset: 0; z-index: 200; display: grid; place-items: center; padding: 12px; }
 .chart-modal-backdrop { position: absolute; inset: 0; background: rgba(9, 19, 34, .68); }
-.chart-modal-card { position: relative; width: min(1080px, 96vw); max-height: 92vh; display: grid; grid-template-rows: auto auto minmax(0, 1fr); overflow: hidden; border-radius: 7px; background: white; box-shadow: 0 18px 60px rgba(0,0,0,.35); }
+.chart-modal-card { position: relative; width: min(1080px, 96vw); max-height: 96vh; display: grid; grid-template-rows: auto auto minmax(0, 1fr); overflow: hidden; border-radius: 7px; background: white; box-shadow: 0 18px 60px rgba(0,0,0,.35); }
 .chart-modal-header { position: static; min-height: 0; padding: 14px 18px; display: flex; align-items: flex-start; justify-content: space-between; color: white; background: #121d2e; }
-.chart-modal-header h2 { margin: 0; font-size: 18px; }
-.chart-modal-header p { margin: 5px 0 0; color: #cbd6e6; font-size: 11px; }
+.chart-modal-header h2 { margin: 0; font-size: 18px; white-space: nowrap; }
+.chart-modal-header p { margin: 5px 0 0; color: #cbd6e6; font-size: 11px; white-space: nowrap; }
 .chart-modal-close { width: 34px; height: 34px; border: 1px solid #63728a; border-radius: 4px; color: white; background: transparent; font-size: 25px; line-height: 1; cursor: pointer; }
 .chart-modal-plot { padding: 10px 18px 4px; background: #f8fafc; }
-.chart-modal-plot svg { display: block; width: 100%; height: 240px; }
+.chart-modal-plot svg { display: block; width: 100%; height: 220px; }
 .modal-price-line { fill: none; stroke: #254f7a; stroke-width: 2.2; vector-effect: non-scaling-stroke; }
 .modal-target-line { stroke: #cf3b3b; stroke-width: 1.2; stroke-dasharray: 6 4; }
 .modal-lower-line { stroke: #397d58; stroke-width: 1.2; stroke-dasharray: 6 4; }
@@ -541,7 +541,7 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
     const bars = item.chart_bars;
     const values = bars.map((bar) => n(bar.close));
     const width = 900;
-    const height = 240;
+    const height = 220;
     const padLeft = 78;
     const padRight = 18;
     const padTop = 16;
@@ -592,7 +592,9 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
     if (!candidate) return;
     const item = metric(candidate);
     if (item.structure_status !== "READY" || !item.chart_bars.length) return;
-    $("#chartModalTitle").textContent = `${candidate.name} · ${state.window}일 60분봉`;
+    $("#chartModalTitle").textContent = `${candidate.name} · 현재가 ${won.format(
+      n(candidate.current_price),
+    )}원 · ${state.window}일 60분봉`;
     $("#chartModalSummary").textContent = `일중 진폭 ${one.format(n(item.median_daily_range_pct))}% / 최대 ${one.format(
       n(item.max_daily_range_pct),
     )}% · 저점 반등 ${one.format(n(item.median_daily_rebound_pct))}% / 최대 ${one.format(
