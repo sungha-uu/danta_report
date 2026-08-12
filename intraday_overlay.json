@@ -1,8 +1,8 @@
 {
   "schema_version": 3,
-  "revision": "20260812-1531",
+  "revision": "20260812-1542",
   "market_division": "NX",
-  "observed_at": "2026-08-12T06:31:02.631855+00:00",
+  "observed_at": "2026-08-12T06:42:42.053179+00:00",
   "report_data_as_of": "2026-08-11T15:30:00+09:00",
   "coverage": 175,
   "failed_symbols": [
@@ -39,7 +39,7 @@
       "name": "OCI홀딩스",
       "live_rank_14d": 1,
       "live_price": 256500,
-      "live_position_pct": "78.96",
+      "live_position_pct": "79.45",
       "box_low": "175795.00",
       "box_high": "278000.00",
       "target_price_10pct": "193374.50",
@@ -54,15 +54,15 @@
       "reach_days_5pct": 13,
       "reach_days_10pct": 8,
       "reach_days_15pct": 3,
-      "current_vs_window_high_pct": "-14.81",
-      "discount_from_window_high_pct": "14.81",
+      "current_vs_window_high_pct": "-14.59",
+      "discount_from_window_high_pct": "14.59",
       "lower_trend_pct": "5.86",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 5000,
       "intraday_institution_net_qty": -38000,
       "intraday_combined_net_qty": -33000,
-      "intraday_flow_strength_pct": "-9.28",
+      "intraday_flow_strength_pct": "-9.26",
       "closes": [
         "256000",
         "278000",
@@ -1078,7 +1078,7 @@
       "intraday_foreign_net_qty": 72000,
       "intraday_institution_net_qty": 32000,
       "intraday_combined_net_qty": 104000,
-      "intraday_flow_strength_pct": "17.41",
+      "intraday_flow_strength_pct": "17.33",
       "closes": [
         "1386000",
         "1361000",
@@ -2071,7 +2071,7 @@
       "name": "달바글로벌",
       "live_rank_14d": 3,
       "live_price": 261500,
-      "live_position_pct": "99.64",
+      "live_position_pct": "97.24",
       "box_low": "220000.00",
       "box_high": "261650.00",
       "target_price_10pct": "242000.00",
@@ -2086,15 +2086,15 @@
       "reach_days_5pct": 10,
       "reach_days_10pct": 5,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-8.22",
-      "discount_from_window_high_pct": "8.22",
+      "current_vs_window_high_pct": "-8.64",
+      "discount_from_window_high_pct": "8.64",
       "lower_trend_pct": "6.93",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -34000,
       "intraday_institution_net_qty": 4000,
       "intraday_combined_net_qty": -30000,
-      "intraday_flow_strength_pct": "-11.30",
+      "intraday_flow_strength_pct": "-11.28",
       "closes": [
         "251000",
         "245000",
@@ -3087,7 +3087,7 @@
       "name": "SK스퀘어",
       "live_rank_14d": 4,
       "live_price": 1027000,
-      "live_position_pct": "67.03",
+      "live_position_pct": "67.66",
       "box_low": "812900.00",
       "box_high": "1132300.00",
       "target_price_10pct": "894190.00",
@@ -3102,15 +3102,15 @@
       "reach_days_5pct": 8,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-17.14",
-      "discount_from_window_high_pct": "17.14",
+      "current_vs_window_high_pct": "-16.91",
+      "discount_from_window_high_pct": "16.91",
       "lower_trend_pct": "-12.14",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 203000,
       "intraday_institution_net_qty": 10000,
       "intraday_combined_net_qty": 213000,
-      "intraday_flow_strength_pct": "36.81",
+      "intraday_flow_strength_pct": "36.74",
       "closes": [
         "1131000",
         "1134000",
@@ -4103,7 +4103,7 @@
       "name": "가온전선",
       "live_rank_14d": 5,
       "live_price": 162300,
-      "live_position_pct": "68.10",
+      "live_position_pct": "67.95",
       "box_low": "118850.00",
       "box_high": "182650.00",
       "target_price_10pct": "130735.00",
@@ -4118,15 +4118,15 @@
       "reach_days_5pct": 9,
       "reach_days_10pct": 2,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-31.85",
-      "discount_from_window_high_pct": "31.85",
+      "current_vs_window_high_pct": "-31.94",
+      "discount_from_window_high_pct": "31.94",
       "lower_trend_pct": "-11.97",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 25000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": 25000,
-      "intraday_flow_strength_pct": "17.82",
+      "intraday_flow_strength_pct": "17.77",
       "closes": [
         "200500",
         "195000",
@@ -5119,7 +5119,7 @@
       "name": "NHN",
       "live_rank_14d": 6,
       "live_price": 61100,
-      "live_position_pct": "148.46",
+      "live_position_pct": "150.66",
       "box_low": "34170.00",
       "box_high": "52310.00",
       "target_price_10pct": "37587.00",
@@ -5134,15 +5134,15 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 5,
       "reach_days_15pct": 2,
-      "current_vs_window_high_pct": "-3.93",
-      "discount_from_window_high_pct": "3.93",
+      "current_vs_window_high_pct": "-3.25",
+      "discount_from_window_high_pct": "3.25",
       "lower_trend_pct": "55.16",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 48000,
       "intraday_institution_net_qty": 100000,
       "intraday_combined_net_qty": 148000,
-      "intraday_flow_strength_pct": "13.08",
+      "intraday_flow_strength_pct": "13.04",
       "closes": [
         "38500",
         "37950",
@@ -6135,7 +6135,7 @@
       "name": "코리아써키트",
       "live_rank_14d": 7,
       "live_price": 63000,
-      "live_position_pct": "111.09",
+      "live_position_pct": "114.02",
       "box_low": "40260.00",
       "box_high": "60730.00",
       "target_price_10pct": "44286.00",
@@ -6150,15 +6150,15 @@
       "reach_days_5pct": 10,
       "reach_days_10pct": 3,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-2.06",
-      "discount_from_window_high_pct": "2.06",
+      "current_vs_window_high_pct": "-1.10",
+      "discount_from_window_high_pct": "1.10",
       "lower_trend_pct": "7.36",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -105000,
       "intraday_institution_net_qty": 58000,
       "intraday_combined_net_qty": -47000,
-      "intraday_flow_strength_pct": "-14.39",
+      "intraday_flow_strength_pct": "-14.35",
       "closes": [
         "59400",
         "58500",
@@ -7151,7 +7151,7 @@
       "name": "금호타이어",
       "live_rank_14d": 8,
       "live_price": 7420,
-      "live_position_pct": "79.34",
+      "live_position_pct": "77.81",
       "box_low": "5861.00",
       "box_high": "7826.00",
       "target_price_10pct": "6447.10",
@@ -7166,15 +7166,15 @@
       "reach_days_5pct": 9,
       "reach_days_10pct": 3,
       "reach_days_15pct": 3,
-      "current_vs_window_high_pct": "-14.69",
-      "discount_from_window_high_pct": "14.69",
+      "current_vs_window_high_pct": "-15.16",
+      "discount_from_window_high_pct": "15.16",
       "lower_trend_pct": "16.47",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 112000,
       "intraday_institution_net_qty": 7000,
       "intraday_combined_net_qty": 119000,
-      "intraday_flow_strength_pct": "1.52",
+      "intraday_flow_strength_pct": "1.51",
       "closes": [
         "6120",
         "6090",
@@ -8167,7 +8167,7 @@
       "name": "LG이노텍",
       "live_rank_14d": 9,
       "live_price": 605000,
-      "live_position_pct": "92.58",
+      "live_position_pct": "92.01",
       "box_low": "443950.00",
       "box_high": "617900.00",
       "target_price_10pct": "488345.00",
@@ -8182,15 +8182,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-10.25",
-      "discount_from_window_high_pct": "10.25",
+      "current_vs_window_high_pct": "-10.43",
+      "discount_from_window_high_pct": "10.43",
       "lower_trend_pct": "-7.53",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 33000,
       "intraday_institution_net_qty": 24000,
       "intraday_combined_net_qty": 57000,
-      "intraday_flow_strength_pct": "21.53",
+      "intraday_flow_strength_pct": "21.44",
       "closes": [
         "634000",
         "631000",
@@ -9183,7 +9183,7 @@
       "name": "LIG디펜스앤에어로스페이스",
       "live_rank_14d": 10,
       "live_price": 789000,
-      "live_position_pct": "85.49",
+      "live_position_pct": "84.90",
       "box_low": "645200.00",
       "box_high": "813400.00",
       "target_price_10pct": "709720.00",
@@ -9198,15 +9198,15 @@
       "reach_days_5pct": 10,
       "reach_days_10pct": 3,
       "reach_days_15pct": 2,
-      "current_vs_window_high_pct": "-6.21",
-      "discount_from_window_high_pct": "6.21",
+      "current_vs_window_high_pct": "-6.35",
+      "discount_from_window_high_pct": "6.35",
       "lower_trend_pct": "0.54",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -2000,
       "intraday_institution_net_qty": -3000,
       "intraday_combined_net_qty": -5000,
-      "intraday_flow_strength_pct": "-6.63",
+      "intraday_flow_strength_pct": "-6.61",
       "closes": [
         "798000",
         "779000",
@@ -10222,7 +10222,7 @@
       "intraday_foreign_net_qty": -43000,
       "intraday_institution_net_qty": -30000,
       "intraday_combined_net_qty": -73000,
-      "intraday_flow_strength_pct": "-15.06",
+      "intraday_flow_strength_pct": "-15.01",
       "closes": [
         "208000",
         "207000",
@@ -11215,7 +11215,7 @@
       "name": "SK하이닉스",
       "live_rank_14d": 12,
       "live_price": 1501000,
-      "live_position_pct": "34.40",
+      "live_position_pct": "36.23",
       "box_low": "1350500.00",
       "box_high": "1788000.00",
       "target_price_10pct": "1485550.00",
@@ -11230,15 +11230,15 @@
       "reach_days_5pct": 8,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-26.18",
-      "discount_from_window_high_pct": "26.18",
+      "current_vs_window_high_pct": "-25.51",
+      "discount_from_window_high_pct": "25.51",
       "lower_trend_pct": "-17.81",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 520000,
       "intraday_institution_net_qty": 253000,
       "intraday_combined_net_qty": 773000,
-      "intraday_flow_strength_pct": "23.25",
+      "intraday_flow_strength_pct": "23.15",
       "closes": [
         "1833000",
         "1824000",
@@ -12254,7 +12254,7 @@
       "intraday_foreign_net_qty": 12000,
       "intraday_institution_net_qty": -8000,
       "intraday_combined_net_qty": 4000,
-      "intraday_flow_strength_pct": "7.34",
+      "intraday_flow_strength_pct": "7.33",
       "closes": [
         "399500",
         "390500",
@@ -13247,7 +13247,7 @@
       "name": "삼성전자",
       "live_rank_14d": 14,
       "live_price": 255500,
-      "live_position_pct": "95.68",
+      "live_position_pct": "96.68",
       "box_low": "207900.00",
       "box_high": "257650.00",
       "target_price_10pct": "228690.00",
@@ -13262,15 +13262,15 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-4.50",
-      "discount_from_window_high_pct": "4.50",
+      "current_vs_window_high_pct": "-4.30",
+      "discount_from_window_high_pct": "4.30",
       "lower_trend_pct": "-2.43",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 5795000,
       "intraday_institution_net_qty": 698000,
       "intraday_combined_net_qty": 6493000,
-      "intraday_flow_strength_pct": "29.93",
+      "intraday_flow_strength_pct": "29.82",
       "closes": [
         "258500",
         "256500",
@@ -14286,7 +14286,7 @@
       "intraday_foreign_net_qty": -58000,
       "intraday_institution_net_qty": 1000,
       "intraday_combined_net_qty": -57000,
-      "intraday_flow_strength_pct": "-24.19",
+      "intraday_flow_strength_pct": "-24.14",
       "closes": [
         "102800",
         "101700",
@@ -15279,7 +15279,7 @@
       "name": "두산",
       "live_rank_14d": 16,
       "live_price": 1258000,
-      "live_position_pct": "94.51",
+      "live_position_pct": "93.21",
       "box_low": "965500.00",
       "box_high": "1275000.00",
       "target_price_10pct": "1062050.00",
@@ -15294,15 +15294,15 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-7.95",
-      "discount_from_window_high_pct": "7.95",
+      "current_vs_window_high_pct": "-8.29",
+      "discount_from_window_high_pct": "8.29",
       "lower_trend_pct": "0.85",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 13000,
       "intraday_institution_net_qty": -1000,
       "intraday_combined_net_qty": 12000,
-      "intraday_flow_strength_pct": "32.50",
+      "intraday_flow_strength_pct": "32.47",
       "closes": [
         "1237000",
         "1229000",
@@ -16318,7 +16318,7 @@
       "intraday_foreign_net_qty": -29000,
       "intraday_institution_net_qty": -3000,
       "intraday_combined_net_qty": -32000,
-      "intraday_flow_strength_pct": "-13.60",
+      "intraday_flow_strength_pct": "-13.53",
       "closes": [
         "78900",
         "77400",
@@ -17311,7 +17311,7 @@
       "name": "GS",
       "live_rank_14d": 18,
       "live_price": 101000,
-      "live_position_pct": "103.91",
+      "live_position_pct": "106.36",
       "box_low": "84000.00",
       "box_high": "100360.00",
       "target_price_10pct": "92400.00",
@@ -17326,8 +17326,8 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 3,
       "reach_days_15pct": 2,
-      "current_vs_window_high_pct": "-6.24",
-      "discount_from_window_high_pct": "6.24",
+      "current_vs_window_high_pct": "-5.82",
+      "discount_from_window_high_pct": "5.82",
       "lower_trend_pct": "6.94",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -18327,7 +18327,7 @@
       "name": "이수페타시스",
       "live_rank_14d": 19,
       "live_price": 90400,
-      "live_position_pct": "98.14",
+      "live_position_pct": "97.08",
       "box_low": "62510.00",
       "box_high": "90930.00",
       "target_price_10pct": "68761.00",
@@ -18342,15 +18342,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-2.99",
-      "discount_from_window_high_pct": "2.99",
+      "current_vs_window_high_pct": "-3.33",
+      "discount_from_window_high_pct": "3.33",
       "lower_trend_pct": "1.39",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -20000,
       "intraday_institution_net_qty": -1000,
       "intraday_combined_net_qty": -21000,
-      "intraday_flow_strength_pct": "-7.88",
+      "intraday_flow_strength_pct": "-7.86",
       "closes": [
         "90400",
         "88500",
@@ -19343,7 +19343,7 @@
       "name": "신세계",
       "live_rank_14d": 20,
       "live_price": 399000,
-      "live_position_pct": "0.58",
+      "live_position_pct": "1.02",
       "box_low": "398350.00",
       "box_high": "511000.00",
       "target_price_10pct": "438185.00",
@@ -19358,15 +19358,15 @@
       "reach_days_5pct": 8,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-37.84",
-      "discount_from_window_high_pct": "37.84",
+      "current_vs_window_high_pct": "-37.67",
+      "discount_from_window_high_pct": "37.67",
       "lower_trend_pct": "-20.51",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -49000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -49000,
-      "intraday_flow_strength_pct": "-34.03",
+      "intraday_flow_strength_pct": "-34.00",
       "closes": [
         "525000",
         "511000",
@@ -20382,7 +20382,7 @@
       "intraday_foreign_net_qty": -62000,
       "intraday_institution_net_qty": 8000,
       "intraday_combined_net_qty": -54000,
-      "intraday_flow_strength_pct": "-10.51",
+      "intraday_flow_strength_pct": "-10.47",
       "closes": [
         "44750",
         "43850",
@@ -21375,7 +21375,7 @@
       "name": "효성중공업",
       "live_rank_14d": 22,
       "live_price": 2896000,
-      "live_position_pct": "94.57",
+      "live_position_pct": "94.27",
       "box_low": "1967100.00",
       "box_high": "2949300.00",
       "target_price_10pct": "2163810.00",
@@ -21390,15 +21390,15 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 1,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-5.52",
-      "discount_from_window_high_pct": "5.52",
+      "current_vs_window_high_pct": "-5.63",
+      "discount_from_window_high_pct": "5.63",
       "lower_trend_pct": "8.94",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 7000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": 7000,
-      "intraday_flow_strength_pct": "33.73",
+      "intraday_flow_strength_pct": "33.71",
       "closes": [
         "2744000",
         "2727000",
@@ -22391,7 +22391,7 @@
       "name": "엘앤에프",
       "live_rank_14d": 23,
       "live_price": 99800,
-      "live_position_pct": "97.29",
+      "live_position_pct": "97.00",
       "box_low": "66440.00",
       "box_high": "100730.00",
       "target_price_10pct": "73084.00",
@@ -22406,15 +22406,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 2,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-6.01",
-      "discount_from_window_high_pct": "6.01",
+      "current_vs_window_high_pct": "-6.12",
+      "discount_from_window_high_pct": "6.12",
       "lower_trend_pct": "19.55",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -69000,
       "intraday_institution_net_qty": 40000,
       "intraday_combined_net_qty": -29000,
-      "intraday_flow_strength_pct": "-8.67",
+      "intraday_flow_strength_pct": "-8.66",
       "closes": [
         "84600",
         "83300",
@@ -23430,7 +23430,7 @@
       "intraday_foreign_net_qty": -20000,
       "intraday_institution_net_qty": 3000,
       "intraday_combined_net_qty": -17000,
-      "intraday_flow_strength_pct": "-15.60",
+      "intraday_flow_strength_pct": "-15.57",
       "closes": [
         "322500",
         "318000",
@@ -24423,7 +24423,7 @@
       "name": "한화비전",
       "live_rank_14d": 25,
       "live_price": 52800,
-      "live_position_pct": "108.51",
+      "live_position_pct": "109.10",
       "box_low": "34440.00",
       "box_high": "51360.00",
       "target_price_10pct": "37884.00",
@@ -24438,8 +24438,8 @@
       "reach_days_5pct": 9,
       "reach_days_10pct": 4,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-2.08",
-      "discount_from_window_high_pct": "2.08",
+      "current_vs_window_high_pct": "-1.89",
+      "discount_from_window_high_pct": "1.89",
       "lower_trend_pct": "19.43",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -26478,7 +26478,7 @@
       "intraday_foreign_net_qty": -11000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -11000,
-      "intraday_flow_strength_pct": "-10.46",
+      "intraday_flow_strength_pct": "-10.44",
       "closes": [
         "59200",
         "58600",
@@ -27471,7 +27471,7 @@
       "name": "현대건설",
       "live_rank_14d": 28,
       "live_price": 113800,
-      "live_position_pct": "98.62",
+      "live_position_pct": "98.30",
       "box_low": "83080.00",
       "box_high": "114230.00",
       "target_price_10pct": "91388.00",
@@ -27486,15 +27486,15 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-3.25",
-      "discount_from_window_high_pct": "3.25",
+      "current_vs_window_high_pct": "-3.34",
+      "discount_from_window_high_pct": "3.34",
       "lower_trend_pct": "6.35",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 23000,
       "intraday_institution_net_qty": 24000,
       "intraday_combined_net_qty": 47000,
-      "intraday_flow_strength_pct": "16.68",
+      "intraday_flow_strength_pct": "16.67",
       "closes": [
         "108600",
         "110000",
@@ -28487,7 +28487,7 @@
       "name": "한화시스템",
       "live_rank_14d": 29,
       "live_price": 75800,
-      "live_position_pct": "102.26",
+      "live_position_pct": "101.77",
       "box_low": "54970.00",
       "box_high": "75340.00",
       "target_price_10pct": "60467.00",
@@ -28502,15 +28502,15 @@
       "reach_days_5pct": 9,
       "reach_days_10pct": 4,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-1.98",
-      "discount_from_window_high_pct": "1.98",
+      "current_vs_window_high_pct": "-2.11",
+      "discount_from_window_high_pct": "2.11",
       "lower_trend_pct": "8.25",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 38000,
       "intraday_institution_net_qty": 8000,
       "intraday_combined_net_qty": 46000,
-      "intraday_flow_strength_pct": "16.07",
+      "intraday_flow_strength_pct": "16.05",
       "closes": [
         "71700",
         "69600",
@@ -29503,7 +29503,7 @@
       "name": "한화엔진",
       "live_rank_14d": 30,
       "live_price": 45050,
-      "live_position_pct": "71.12",
+      "live_position_pct": "72.08",
       "box_low": "37650.00",
       "box_high": "48055.00",
       "target_price_10pct": "41415.00",
@@ -29518,8 +29518,8 @@
       "reach_days_5pct": 8,
       "reach_days_10pct": 3,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-15.43",
-      "discount_from_window_high_pct": "15.43",
+      "current_vs_window_high_pct": "-15.17",
+      "discount_from_window_high_pct": "15.17",
       "lower_trend_pct": "-9.99",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -30519,7 +30519,7 @@
       "name": "HD건설기계",
       "live_rank_14d": 31,
       "live_price": 138200,
-      "live_position_pct": "80.38",
+      "live_position_pct": "81.80",
       "box_low": "115550.00",
       "box_high": "143730.00",
       "target_price_10pct": "127105.00",
@@ -30534,15 +30534,15 @@
       "reach_days_5pct": 4,
       "reach_days_10pct": 3,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-7.89",
-      "discount_from_window_high_pct": "7.89",
+      "current_vs_window_high_pct": "-7.58",
+      "discount_from_window_high_pct": "7.58",
       "lower_trend_pct": "4.95",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -34000,
       "intraday_institution_net_qty": -5000,
       "intraday_combined_net_qty": -39000,
-      "intraday_flow_strength_pct": "-22.66",
+      "intraday_flow_strength_pct": "-22.64",
       "closes": [
         "136800",
         "135900",
@@ -31535,7 +31535,7 @@
       "name": "SK텔레콤",
       "live_rank_14d": 32,
       "live_price": 87900,
-      "live_position_pct": "43.76",
+      "live_position_pct": "43.29",
       "box_low": "78540.00",
       "box_high": "99930.00",
       "target_price_10pct": "86394.00",
@@ -31550,8 +31550,8 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 4,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-20.14",
-      "discount_from_window_high_pct": "20.14",
+      "current_vs_window_high_pct": "-20.27",
+      "discount_from_window_high_pct": "20.27",
       "lower_trend_pct": "-8.27",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -32551,7 +32551,7 @@
       "name": "한진칼",
       "live_rank_14d": 33,
       "live_price": 118400,
-      "live_position_pct": "59.38",
+      "live_position_pct": "60.32",
       "box_low": "105830.00",
       "box_high": "127000.00",
       "target_price_10pct": "116413.00",
@@ -32566,8 +32566,8 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-11.91",
-      "discount_from_window_high_pct": "11.91",
+      "current_vs_window_high_pct": "-11.72",
+      "discount_from_window_high_pct": "11.72",
       "lower_trend_pct": "15.02",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -33567,7 +33567,7 @@
       "name": "삼성에스디에스",
       "live_rank_14d": 34,
       "live_price": 235000,
-      "live_position_pct": "97.34",
+      "live_position_pct": "98.67",
       "box_low": "198420.00",
       "box_high": "236000.00",
       "target_price_10pct": "218262.00",
@@ -33582,15 +33582,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-3.62",
-      "discount_from_window_high_pct": "3.62",
+      "current_vs_window_high_pct": "-3.40",
+      "discount_from_window_high_pct": "3.40",
       "lower_trend_pct": "15.88",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -36000,
       "intraday_institution_net_qty": 4000,
       "intraday_combined_net_qty": -32000,
-      "intraday_flow_strength_pct": "-17.83",
+      "intraday_flow_strength_pct": "-17.74",
       "closes": [
         "211000",
         "207500",
@@ -34583,7 +34583,7 @@
       "name": "아모레퍼시픽",
       "live_rank_14d": 35,
       "live_price": 135700,
-      "live_position_pct": "81.52",
+      "live_position_pct": "82.00",
       "box_low": "118940.00",
       "box_high": "139500.00",
       "target_price_10pct": "130834.00",
@@ -34598,15 +34598,15 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-4.64",
-      "discount_from_window_high_pct": "4.64",
+      "current_vs_window_high_pct": "-4.57",
+      "discount_from_window_high_pct": "4.57",
       "lower_trend_pct": "15.58",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 39000,
       "intraday_institution_net_qty": -14000,
       "intraday_combined_net_qty": 25000,
-      "intraday_flow_strength_pct": "9.64",
+      "intraday_flow_strength_pct": "9.63",
       "closes": [
         "120500",
         "119300",
@@ -35599,7 +35599,7 @@
       "name": "현대차",
       "live_rank_14d": 36,
       "live_price": 409000,
-      "live_position_pct": "97.52",
+      "live_position_pct": "98.35",
       "box_low": "350000.00",
       "box_high": "410500.00",
       "target_price_10pct": "385000.00",
@@ -35614,15 +35614,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-2.32",
-      "discount_from_window_high_pct": "2.32",
+      "current_vs_window_high_pct": "-2.20",
+      "discount_from_window_high_pct": "2.20",
       "lower_trend_pct": "2.69",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 78000,
       "intraday_institution_net_qty": -24000,
       "intraday_combined_net_qty": 54000,
-      "intraday_flow_strength_pct": "16.38",
+      "intraday_flow_strength_pct": "16.34",
       "closes": [
         "403500",
         "400000",
@@ -36615,7 +36615,7 @@
       "name": "일진전기",
       "live_rank_14d": 37,
       "live_price": 72300,
-      "live_position_pct": "135.54",
+      "live_position_pct": "136.62",
       "box_low": "47205.00",
       "box_high": "65720.00",
       "target_price_10pct": "51925.50",
@@ -36630,15 +36630,15 @@
       "reach_days_5pct": 8,
       "reach_days_10pct": 1,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-2.90",
-      "discount_from_window_high_pct": "2.90",
+      "current_vs_window_high_pct": "-2.62",
+      "discount_from_window_high_pct": "2.62",
       "lower_trend_pct": "9.84",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 141000,
       "intraday_institution_net_qty": 111000,
       "intraday_combined_net_qty": 252000,
-      "intraday_flow_strength_pct": "18.56",
+      "intraday_flow_strength_pct": "18.49",
       "closes": [
         "65700",
         "65800",
@@ -37631,7 +37631,7 @@
       "name": "한국콜마",
       "live_rank_14d": 38,
       "live_price": 132500,
-      "live_position_pct": "226.79",
+      "live_position_pct": "225.04",
       "box_low": "93470.00",
       "box_high": "110680.00",
       "target_price_10pct": "102817.00",
@@ -37646,15 +37646,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 2,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-5.13",
-      "discount_from_window_high_pct": "5.13",
+      "current_vs_window_high_pct": "-5.37",
+      "discount_from_window_high_pct": "5.37",
       "lower_trend_pct": "9.66",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -113000,
       "intraday_institution_net_qty": 261000,
       "intraday_combined_net_qty": 148000,
-      "intraday_flow_strength_pct": "6.82",
+      "intraday_flow_strength_pct": "6.80",
       "closes": [
         "101400",
         "101500",
@@ -38647,7 +38647,7 @@
       "name": "풍산",
       "live_rank_14d": 39,
       "live_price": 82600,
-      "live_position_pct": "86.64",
+      "live_position_pct": "85.51",
       "box_low": "59700.00",
       "box_high": "86130.00",
       "target_price_10pct": "65670.00",
@@ -38662,15 +38662,15 @@
       "reach_days_5pct": 8,
       "reach_days_10pct": 2,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-5.93",
-      "discount_from_window_high_pct": "5.93",
+      "current_vs_window_high_pct": "-6.32",
+      "discount_from_window_high_pct": "6.32",
       "lower_trend_pct": "23.29",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 26000,
       "intraday_institution_net_qty": -13000,
       "intraday_combined_net_qty": 13000,
-      "intraday_flow_strength_pct": "12.61",
+      "intraday_flow_strength_pct": "12.60",
       "closes": [
         "69700",
         "69300",
@@ -39663,7 +39663,7 @@
       "name": "한화에어로스페이스",
       "live_rank_14d": 40,
       "live_price": 1158000,
-      "live_position_pct": "99.18",
+      "live_position_pct": "100.49",
       "box_low": "856700.00",
       "box_high": "1160500.00",
       "target_price_10pct": "942370.00",
@@ -39678,15 +39678,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-2.76",
-      "discount_from_window_high_pct": "2.76",
+      "current_vs_window_high_pct": "-2.41",
+      "discount_from_window_high_pct": "2.41",
       "lower_trend_pct": "12.23",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -22000,
       "intraday_institution_net_qty": -1000,
       "intraday_combined_net_qty": -23000,
-      "intraday_flow_strength_pct": "-27.34",
+      "intraday_flow_strength_pct": "-26.90",
       "closes": [
         "1050000",
         "1010000",
@@ -40679,7 +40679,7 @@
       "name": "삼성물산",
       "live_rank_14d": 41,
       "live_price": 359000,
-      "live_position_pct": "108.26",
+      "live_position_pct": "105.81",
       "box_low": "292800.00",
       "box_high": "353950.00",
       "target_price_10pct": "322080.00",
@@ -40694,8 +40694,8 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-0.70",
-      "discount_from_window_high_pct": "0.70",
+      "current_vs_window_high_pct": "-1.12",
+      "discount_from_window_high_pct": "1.12",
       "lower_trend_pct": "3.74",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -41695,7 +41695,7 @@
       "name": "포스코퓨처엠",
       "live_rank_14d": 42,
       "live_price": 160000,
-      "live_position_pct": "97.53",
+      "live_position_pct": "97.85",
       "box_low": "128760.00",
       "box_high": "160790.00",
       "target_price_10pct": "141636.00",
@@ -41710,15 +41710,15 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 1,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-5.50",
-      "discount_from_window_high_pct": "5.50",
+      "current_vs_window_high_pct": "-5.43",
+      "discount_from_window_high_pct": "5.43",
       "lower_trend_pct": "10.79",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -17000,
       "intraday_institution_net_qty": 10000,
       "intraday_combined_net_qty": -7000,
-      "intraday_flow_strength_pct": "-3.55",
+      "intraday_flow_strength_pct": "-3.54",
       "closes": [
         "145500",
         "144700",
@@ -43727,7 +43727,7 @@
       "name": "SK",
       "live_rank_14d": 44,
       "live_price": 544000,
-      "live_position_pct": "45.02",
+      "live_position_pct": "45.69",
       "box_low": "476850.00",
       "box_high": "626000.00",
       "target_price_10pct": "524535.00",
@@ -43742,8 +43742,8 @@
       "reach_days_5pct": 4,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-23.71",
-      "discount_from_window_high_pct": "23.71",
+      "current_vs_window_high_pct": "-23.49",
+      "discount_from_window_high_pct": "23.49",
       "lower_trend_pct": "-15.09",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -44743,7 +44743,7 @@
       "name": "삼성생명",
       "live_rank_14d": 45,
       "live_price": 301500,
-      "live_position_pct": "77.36",
+      "live_position_pct": "79.30",
       "box_low": "261700.00",
       "box_high": "313150.00",
       "target_price_10pct": "287870.00",
@@ -44758,15 +44758,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-7.96",
-      "discount_from_window_high_pct": "7.96",
+      "current_vs_window_high_pct": "-7.60",
+      "discount_from_window_high_pct": "7.60",
       "lower_trend_pct": "-3.42",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 24000,
       "intraday_institution_net_qty": 17000,
       "intraday_combined_net_qty": 41000,
-      "intraday_flow_strength_pct": "15.79",
+      "intraday_flow_strength_pct": "15.78",
       "closes": [
         "317500",
         "318000",
@@ -45759,7 +45759,7 @@
       "name": "HD현대마린엔진",
       "live_rank_14d": 46,
       "live_price": 57200,
-      "live_position_pct": "50.95",
+      "live_position_pct": "52.58",
       "box_low": "47820.00",
       "box_high": "66230.00",
       "target_price_10pct": "52602.00",
@@ -45774,15 +45774,15 @@
       "reach_days_5pct": 9,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-22.38",
-      "discount_from_window_high_pct": "22.38",
+      "current_vs_window_high_pct": "-21.74",
+      "discount_from_window_high_pct": "21.74",
       "lower_trend_pct": "-16.77",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 3000,
       "intraday_institution_net_qty": 4000,
       "intraday_combined_net_qty": 7000,
-      "intraday_flow_strength_pct": "7.33",
+      "intraday_flow_strength_pct": "7.32",
       "closes": [
         "68800",
         "68600",
@@ -46775,7 +46775,7 @@
       "name": "한전기술",
       "live_rank_14d": 47,
       "live_price": 99400,
-      "live_position_pct": "86.39",
+      "live_position_pct": "87.77",
       "box_low": "80610.00",
       "box_high": "102360.00",
       "target_price_10pct": "88671.00",
@@ -46790,15 +46790,15 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-6.34",
-      "discount_from_window_high_pct": "6.34",
+      "current_vs_window_high_pct": "-6.02",
+      "discount_from_window_high_pct": "6.02",
       "lower_trend_pct": "1.98",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -13000,
       "intraday_institution_net_qty": -9000,
       "intraday_combined_net_qty": -22000,
-      "intraday_flow_strength_pct": "-34.67",
+      "intraday_flow_strength_pct": "-34.66",
       "closes": [
         "100100",
         "102000",
@@ -47791,7 +47791,7 @@
       "name": "현대해상",
       "live_rank_14d": 48,
       "live_price": 41550,
-      "live_position_pct": "75.82",
+      "live_position_pct": "78.85",
       "box_low": "36550.00",
       "box_high": "43145.00",
       "target_price_10pct": "40205.00",
@@ -47806,15 +47806,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-9.03",
-      "discount_from_window_high_pct": "9.03",
+      "current_vs_window_high_pct": "-8.50",
+      "discount_from_window_high_pct": "8.50",
       "lower_trend_pct": "9.06",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -108000,
       "intraday_institution_net_qty": -19000,
       "intraday_combined_net_qty": -127000,
-      "intraday_flow_strength_pct": "-25.53",
+      "intraday_flow_strength_pct": "-25.52",
       "closes": [
         "41350",
         "40900",
@@ -48807,7 +48807,7 @@
       "name": "키움증권",
       "live_rank_14d": 49,
       "live_price": 298500,
-      "live_position_pct": "88.67",
+      "live_position_pct": "89.81",
       "box_low": "259350.00",
       "box_high": "303500.00",
       "target_price_10pct": "285285.00",
@@ -48822,8 +48822,8 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-4.86",
-      "discount_from_window_high_pct": "4.86",
+      "current_vs_window_high_pct": "-4.68",
+      "discount_from_window_high_pct": "4.68",
       "lower_trend_pct": "2.94",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -49823,7 +49823,7 @@
       "name": "삼양식품",
       "live_rank_14d": 50,
       "live_price": 1204000,
-      "live_position_pct": "40.30",
+      "live_position_pct": "40.94",
       "box_low": "1141700.00",
       "box_high": "1296300.00",
       "target_price_10pct": "1255870.00",
@@ -49838,15 +49838,15 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-10.63",
-      "discount_from_window_high_pct": "10.63",
+      "current_vs_window_high_pct": "-10.54",
+      "discount_from_window_high_pct": "10.54",
       "lower_trend_pct": "8.15",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 7000,
       "intraday_institution_net_qty": -6000,
       "intraday_combined_net_qty": 1000,
-      "intraday_flow_strength_pct": "1.88",
+      "intraday_flow_strength_pct": "1.87",
       "closes": [
         "1167000",
         "1163000",
@@ -50839,7 +50839,7 @@
       "name": "카카오페이",
       "live_rank_14d": 51,
       "live_price": 43950,
-      "live_position_pct": "78.60",
+      "live_position_pct": "79.56",
       "box_low": "39855.00",
       "box_high": "45065.00",
       "target_price_10pct": "43840.50",
@@ -50854,15 +50854,15 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-6.37",
-      "discount_from_window_high_pct": "6.37",
+      "current_vs_window_high_pct": "-6.25",
+      "discount_from_window_high_pct": "6.25",
       "lower_trend_pct": "6.29",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -27000,
       "intraday_institution_net_qty": -3000,
       "intraday_combined_net_qty": -30000,
-      "intraday_flow_strength_pct": "-20.81",
+      "intraday_flow_strength_pct": "-20.77",
       "closes": [
         "42800",
         "42450",
@@ -51855,7 +51855,7 @@
       "name": "한국금융지주",
       "live_rank_14d": 52,
       "live_price": 198700,
-      "live_position_pct": "51.16",
+      "live_position_pct": "55.45",
       "box_low": "183200.00",
       "box_high": "213500.00",
       "target_price_10pct": "201520.00",
@@ -51870,15 +51870,15 @@
       "reach_days_5pct": 4,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-9.96",
-      "discount_from_window_high_pct": "9.96",
+      "current_vs_window_high_pct": "-9.25",
+      "discount_from_window_high_pct": "9.25",
       "lower_trend_pct": "-3.17",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 46000,
       "intraday_institution_net_qty": -8000,
       "intraday_combined_net_qty": 38000,
-      "intraday_flow_strength_pct": "31.35",
+      "intraday_flow_strength_pct": "31.33",
       "closes": [
         "213000",
         "210000",
@@ -52871,7 +52871,7 @@
       "name": "SK이노베이션",
       "live_rank_14d": 53,
       "live_price": 122300,
-      "live_position_pct": "72.31",
+      "live_position_pct": "74.65",
       "box_low": "106870.00",
       "box_high": "128210.00",
       "target_price_10pct": "117557.00",
@@ -52886,15 +52886,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-11.04",
-      "discount_from_window_high_pct": "11.04",
+      "current_vs_window_high_pct": "-10.59",
+      "discount_from_window_high_pct": "10.59",
       "lower_trend_pct": "-3.56",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 56000,
       "intraday_institution_net_qty": 11000,
       "intraday_combined_net_qty": 67000,
-      "intraday_flow_strength_pct": "13.59",
+      "intraday_flow_strength_pct": "13.56",
       "closes": [
         "133600",
         "132100",
@@ -53887,7 +53887,7 @@
       "name": "효성티앤씨",
       "live_rank_14d": 54,
       "live_price": 318000,
-      "live_position_pct": "50.19",
+      "live_position_pct": "52.14",
       "box_low": "292200.00",
       "box_high": "343600.00",
       "target_price_10pct": "321420.00",
@@ -53902,8 +53902,8 @@
       "reach_days_5pct": 10,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-10.06",
-      "discount_from_window_high_pct": "10.06",
+      "current_vs_window_high_pct": "-9.72",
+      "discount_from_window_high_pct": "9.72",
       "lower_trend_pct": "0.79",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -54903,7 +54903,7 @@
       "name": "현대모비스",
       "live_rank_14d": 55,
       "live_price": 498500,
-      "live_position_pct": "85.81",
+      "live_position_pct": "87.16",
       "box_low": "435000.00",
       "box_high": "509000.00",
       "target_price_10pct": "478500.00",
@@ -54918,15 +54918,15 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.12",
-      "discount_from_window_high_pct": "5.12",
+      "current_vs_window_high_pct": "-4.90",
+      "discount_from_window_high_pct": "4.90",
       "lower_trend_pct": "2.74",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 30000,
       "intraday_institution_net_qty": -20000,
       "intraday_combined_net_qty": 10000,
-      "intraday_flow_strength_pct": "5.11",
+      "intraday_flow_strength_pct": "5.10",
       "closes": [
         "506000",
         "487500",
@@ -55919,7 +55919,7 @@
       "name": "미래에셋증권",
       "live_rank_14d": 56,
       "live_price": 36500,
-      "live_position_pct": "92.72",
+      "live_position_pct": "91.99",
       "box_low": "30135.00",
       "box_high": "37000.00",
       "target_price_10pct": "33148.50",
@@ -55934,15 +55934,15 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-7.40",
-      "discount_from_window_high_pct": "7.40",
+      "current_vs_window_high_pct": "-7.54",
+      "discount_from_window_high_pct": "7.54",
       "lower_trend_pct": "-2.49",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -71000,
       "intraday_institution_net_qty": 20000,
       "intraday_combined_net_qty": -51000,
-      "intraday_flow_strength_pct": "-3.84",
+      "intraday_flow_strength_pct": "-3.83",
       "closes": [
         "37250",
         "36950",
@@ -56934,8 +56934,8 @@
       "symbol": "001040",
       "name": "CJ",
       "live_rank_14d": 57,
-      "live_price": 137900,
-      "live_position_pct": "65.64",
+      "live_price": 137800,
+      "live_position_pct": "66.51",
       "box_low": "122750.00",
       "box_high": "145830.00",
       "target_price_10pct": "135025.00",
@@ -56950,15 +56950,15 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-7.32",
-      "discount_from_window_high_pct": "7.32",
+      "current_vs_window_high_pct": "-7.17",
+      "discount_from_window_high_pct": "7.17",
       "lower_trend_pct": "5.47",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 30000,
       "intraday_institution_net_qty": -14000,
       "intraday_combined_net_qty": 16000,
-      "intraday_flow_strength_pct": "17.11",
+      "intraday_flow_strength_pct": "17.09",
       "closes": [
         "132600",
         "131100",
@@ -57057,7 +57057,7 @@
         "139100",
         "137300",
         "138200",
-        "137900"
+        "137800"
       ],
       "chart_bars": [
         {
@@ -57939,8 +57939,8 @@
           "open": "138100",
           "high": "138400",
           "low": "137600",
-          "close": "137900",
-          "volume": "2237"
+          "close": "137800",
+          "volume": "2337"
         }
       ],
       "base_rank_14d": 114,
@@ -57951,7 +57951,7 @@
       "name": "S-Oil",
       "live_rank_14d": 58,
       "live_price": 142200,
-      "live_position_pct": "78.12",
+      "live_position_pct": "75.86",
       "box_low": "121390.00",
       "box_high": "148030.00",
       "target_price_10pct": "133529.00",
@@ -57966,15 +57966,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-10.06",
-      "discount_from_window_high_pct": "10.06",
+      "current_vs_window_high_pct": "-10.52",
+      "discount_from_window_high_pct": "10.52",
       "lower_trend_pct": "-5.28",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 34000,
       "intraday_institution_net_qty": 13000,
       "intraday_combined_net_qty": 47000,
-      "intraday_flow_strength_pct": "23.68",
+      "intraday_flow_strength_pct": "23.64",
       "closes": [
         "154900",
         "153600",
@@ -58967,7 +58967,7 @@
       "name": "대한조선",
       "live_rank_14d": 59,
       "live_price": 51400,
-      "live_position_pct": "101.55",
+      "live_position_pct": "108.17",
       "box_low": "46800.00",
       "box_high": "51330.00",
       "target_price_10pct": "51480.00",
@@ -58982,15 +58982,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-1.56",
-      "discount_from_window_high_pct": "1.56",
+      "current_vs_window_high_pct": "-0.97",
+      "discount_from_window_high_pct": "0.97",
       "lower_trend_pct": "4.06",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -3000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -3000,
-      "intraday_flow_strength_pct": "-9.68",
+      "intraday_flow_strength_pct": "-9.67",
       "closes": [
         "50200",
         "49750",
@@ -59983,7 +59983,7 @@
       "name": "현대백화점",
       "live_rank_14d": 60,
       "live_price": 97800,
-      "live_position_pct": "-7.12",
+      "live_position_pct": "-6.53",
       "box_low": "100200.00",
       "box_high": "133900.00",
       "target_price_10pct": "110220.00",
@@ -59998,8 +59998,8 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-46.93",
-      "discount_from_window_high_pct": "46.93",
+      "current_vs_window_high_pct": "-46.63",
+      "discount_from_window_high_pct": "46.63",
       "lower_trend_pct": "-24.12",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -63031,7 +63031,7 @@
       "name": "아모레퍼시픽홀딩스",
       "live_rank_14d": 63,
       "live_price": 26350,
-      "live_position_pct": "73.09",
+      "live_position_pct": "74.65",
       "box_low": "24000.00",
       "box_high": "27215.00",
       "target_price_10pct": "26400.00",
@@ -63046,8 +63046,8 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.12",
-      "discount_from_window_high_pct": "5.12",
+      "current_vs_window_high_pct": "-4.92",
+      "discount_from_window_high_pct": "4.92",
       "lower_trend_pct": "11.42",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -64047,7 +64047,7 @@
       "name": "영원무역",
       "live_rank_14d": 64,
       "live_price": 85900,
-      "live_position_pct": "5.15",
+      "live_position_pct": "-2.58",
       "box_low": "85500.00",
       "box_high": "93260.00",
       "target_price_10pct": "94050.00",
@@ -64062,15 +64062,15 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-10.71",
-      "discount_from_window_high_pct": "10.71",
+      "current_vs_window_high_pct": "-11.49",
+      "discount_from_window_high_pct": "11.49",
       "lower_trend_pct": "-1.16",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -3000,
       "intraday_institution_net_qty": -2000,
       "intraday_combined_net_qty": -5000,
-      "intraday_flow_strength_pct": "-9.99",
+      "intraday_flow_strength_pct": "-9.98",
       "closes": [
         "88100",
         "88300",
@@ -65063,7 +65063,7 @@
       "name": "산일전기",
       "live_rank_14d": 65,
       "live_price": 189400,
-      "live_position_pct": "105.68",
+      "live_position_pct": "105.85",
       "box_low": "124860.00",
       "box_high": "185930.00",
       "target_price_10pct": "137346.00",
@@ -65078,15 +65078,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-2.96",
-      "discount_from_window_high_pct": "2.96",
+      "current_vs_window_high_pct": "-2.90",
+      "discount_from_window_high_pct": "2.90",
       "lower_trend_pct": "12.74",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -22000,
       "intraday_institution_net_qty": 7000,
       "intraday_combined_net_qty": -15000,
-      "intraday_flow_strength_pct": "-6.10",
+      "intraday_flow_strength_pct": "-6.08",
       "closes": [
         "175500",
         "172100",
@@ -67095,7 +67095,7 @@
       "name": "고려아연",
       "live_rank_14d": 67,
       "live_price": 1222000,
-      "live_position_pct": "90.66",
+      "live_position_pct": "89.73",
       "box_low": "929800.00",
       "box_high": "1252100.00",
       "target_price_10pct": "1022780.00",
@@ -67110,15 +67110,15 @@
       "reach_days_5pct": 10,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-9.25",
-      "discount_from_window_high_pct": "9.25",
+      "current_vs_window_high_pct": "-9.52",
+      "discount_from_window_high_pct": "9.52",
       "lower_trend_pct": "17.21",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -4000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -4000,
-      "intraday_flow_strength_pct": "-22.09",
+      "intraday_flow_strength_pct": "-21.87",
       "closes": [
         "1070000",
         "1067000",
@@ -69127,7 +69127,7 @@
       "name": "LS에코에너지",
       "live_rank_14d": 69,
       "live_price": 48300,
-      "live_position_pct": "99.40",
+      "live_position_pct": "99.77",
       "box_low": "35100.00",
       "box_high": "48380.00",
       "target_price_10pct": "38610.00",
@@ -69142,15 +69142,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-7.04",
-      "discount_from_window_high_pct": "7.04",
+      "current_vs_window_high_pct": "-6.93",
+      "discount_from_window_high_pct": "6.93",
       "lower_trend_pct": "2.05",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -25000,
       "intraday_institution_net_qty": -5000,
       "intraday_combined_net_qty": -30000,
-      "intraday_flow_strength_pct": "-35.07",
+      "intraday_flow_strength_pct": "-34.92",
       "closes": [
         "49100",
         "48600",
@@ -70143,7 +70143,7 @@
       "name": "삼성SDI",
       "live_rank_14d": 70,
       "live_price": 485000,
-      "live_position_pct": "103.16",
+      "live_position_pct": "103.57",
       "box_low": "359400.00",
       "box_high": "481150.00",
       "target_price_10pct": "395340.00",
@@ -70158,15 +70158,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-2.37",
-      "discount_from_window_high_pct": "2.37",
+      "current_vs_window_high_pct": "-2.27",
+      "discount_from_window_high_pct": "2.27",
       "lower_trend_pct": "7.86",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 37000,
       "intraday_institution_net_qty": 41000,
       "intraday_combined_net_qty": 78000,
-      "intraday_flow_strength_pct": "19.95",
+      "intraday_flow_strength_pct": "19.90",
       "closes": [
         "450000",
         "447500",
@@ -71182,7 +71182,7 @@
       "intraday_foreign_net_qty": 20000,
       "intraday_institution_net_qty": 1000,
       "intraday_combined_net_qty": 21000,
-      "intraday_flow_strength_pct": "36.77",
+      "intraday_flow_strength_pct": "36.67",
       "closes": [
         "825000",
         "812000",
@@ -72164,7 +72164,7 @@
           "high": "783000",
           "low": "779000",
           "close": "779000",
-          "volume": "891"
+          "volume": "912"
         }
       ],
       "base_rank_14d": 92,
@@ -72175,7 +72175,7 @@
       "name": "DN오토모티브",
       "live_rank_14d": 72,
       "live_price": 47150,
-      "live_position_pct": "87.21",
+      "live_position_pct": "86.79",
       "box_low": "36585.00",
       "box_high": "48700.00",
       "target_price_10pct": "40243.50",
@@ -72190,15 +72190,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-7.10",
-      "discount_from_window_high_pct": "7.10",
+      "current_vs_window_high_pct": "-7.22",
+      "discount_from_window_high_pct": "7.22",
       "lower_trend_pct": "17.23",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 71000,
       "intraday_institution_net_qty": -27000,
       "intraday_combined_net_qty": 44000,
-      "intraday_flow_strength_pct": "31.05",
+      "intraday_flow_strength_pct": "31.04",
       "closes": [
         "40250",
         "39900",
@@ -73190,8 +73190,8 @@
       "symbol": "051900",
       "name": "LG생활건강",
       "live_rank_14d": 73,
-      "live_price": 314000,
-      "live_position_pct": "84.25",
+      "live_price": 313500,
+      "live_position_pct": "84.96",
       "box_low": "254350.00",
       "box_high": "325150.00",
       "target_price_10pct": "279785.00",
@@ -73206,15 +73206,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 2,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-6.69",
-      "discount_from_window_high_pct": "6.69",
+      "current_vs_window_high_pct": "-6.52",
+      "discount_from_window_high_pct": "6.52",
       "lower_trend_pct": "27.09",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 20000,
       "intraday_institution_net_qty": -3000,
       "intraday_combined_net_qty": 17000,
-      "intraday_flow_strength_pct": "25.46",
+      "intraday_flow_strength_pct": "25.49",
       "closes": [
         "251500",
         "252000",
@@ -73313,7 +73313,7 @@
         "315000",
         "316000",
         "315000",
-        "314000"
+        "313500"
       ],
       "chart_bars": [
         {
@@ -74195,8 +74195,8 @@
           "open": "315000",
           "high": "315500",
           "low": "313000",
-          "close": "314000",
-          "volume": "1628"
+          "close": "313500",
+          "volume": "1479"
         }
       ],
       "base_rank_14d": 91,
@@ -74207,7 +74207,7 @@
       "name": "효성",
       "live_rank_14d": 74,
       "live_price": 162500,
-      "live_position_pct": "97.34",
+      "live_position_pct": "97.83",
       "box_low": "122210.00",
       "box_high": "163600.00",
       "target_price_10pct": "134431.00",
@@ -74222,8 +74222,8 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-3.02",
-      "discount_from_window_high_pct": "3.02",
+      "current_vs_window_high_pct": "-2.89",
+      "discount_from_window_high_pct": "2.89",
       "lower_trend_pct": "1.28",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -75223,7 +75223,7 @@
       "name": "에이피알",
       "live_rank_14d": 75,
       "live_price": 395000,
-      "live_position_pct": "102.86",
+      "live_position_pct": "104.17",
       "box_low": "316000.00",
       "box_high": "392800.00",
       "target_price_10pct": "347600.00",
@@ -75238,8 +75238,8 @@
       "reach_days_5pct": 9,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.06",
-      "discount_from_window_high_pct": "5.06",
+      "current_vs_window_high_pct": "-4.80",
+      "discount_from_window_high_pct": "4.80",
       "lower_trend_pct": "6.70",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -76228,7 +76228,7 @@
           "high": "396000",
           "low": "395000",
           "close": "395000",
-          "volume": "1999"
+          "volume": "2074"
         }
       ],
       "base_rank_14d": 104,
@@ -76238,8 +76238,8 @@
       "symbol": "089860",
       "name": "롯데렌탈",
       "live_rank_14d": 76,
-      "live_price": 43950,
-      "live_position_pct": "103.83",
+      "live_price": 44050,
+      "live_position_pct": "105.33",
       "box_low": "37035.00",
       "box_high": "43695.00",
       "target_price_10pct": "40738.50",
@@ -76254,15 +76254,15 @@
       "reach_days_5pct": 4,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.92",
-      "discount_from_window_high_pct": "5.92",
+      "current_vs_window_high_pct": "-5.68",
+      "discount_from_window_high_pct": "5.68",
       "lower_trend_pct": "4.83",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -73000,
       "intraday_institution_net_qty": 3000,
       "intraday_combined_net_qty": -70000,
-      "intraday_flow_strength_pct": "-34.48",
+      "intraday_flow_strength_pct": "-34.46",
       "closes": [
         "41300",
         "41300",
@@ -76361,7 +76361,7 @@
         "43650",
         "43600",
         "43550",
-        "43950"
+        "44050"
       ],
       "chart_bars": [
         {
@@ -77241,10 +77241,10 @@
           "trading_date": "20260812",
           "bucket": "15",
           "open": "43600",
-          "high": "43950",
+          "high": "44050",
           "low": "43600",
-          "close": "43950",
-          "volume": "4844"
+          "close": "44050",
+          "volume": "4974"
         }
       ],
       "base_rank_14d": 98,
@@ -78271,7 +78271,7 @@
       "name": "한화오션",
       "live_rank_14d": 78,
       "live_price": 90100,
-      "live_position_pct": "86.28",
+      "live_position_pct": "87.03",
       "box_low": "78590.00",
       "box_high": "91930.00",
       "target_price_10pct": "86449.00",
@@ -78286,15 +78286,15 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 1,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-5.22",
-      "discount_from_window_high_pct": "5.22",
+      "current_vs_window_high_pct": "-5.10",
+      "discount_from_window_high_pct": "5.10",
       "lower_trend_pct": "1.15",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 178000,
       "intraday_institution_net_qty": -108000,
       "intraday_combined_net_qty": 70000,
-      "intraday_flow_strength_pct": "7.74",
+      "intraday_flow_strength_pct": "7.71",
       "closes": [
         "90800",
         "89300",
@@ -79310,7 +79310,7 @@
       "intraday_foreign_net_qty": 67000,
       "intraday_institution_net_qty": -10000,
       "intraday_combined_net_qty": 57000,
-      "intraday_flow_strength_pct": "7.96",
+      "intraday_flow_strength_pct": "7.92",
       "closes": [
         "208500",
         "206000",
@@ -80292,7 +80292,7 @@
           "high": "216000",
           "low": "215000",
           "close": "216000",
-          "volume": "23460"
+          "volume": "25801"
         }
       ],
       "base_rank_14d": 103,
@@ -81342,7 +81342,7 @@
       "intraday_foreign_net_qty": -2000,
       "intraday_institution_net_qty": -11000,
       "intraday_combined_net_qty": -13000,
-      "intraday_flow_strength_pct": "-10.49",
+      "intraday_flow_strength_pct": "-10.46",
       "closes": [
         "210000",
         "210000",
@@ -82324,7 +82324,7 @@
           "high": "179700",
           "low": "179400",
           "close": "179600",
-          "volume": "3071"
+          "volume": "3328"
         }
       ],
       "base_rank_14d": 101,
@@ -82358,7 +82358,7 @@
       "intraday_foreign_net_qty": -8000,
       "intraday_institution_net_qty": 19000,
       "intraday_combined_net_qty": 11000,
-      "intraday_flow_strength_pct": "7.30",
+      "intraday_flow_strength_pct": "7.29",
       "closes": [
         "26450",
         "26400",
@@ -83340,7 +83340,7 @@
           "high": "28125",
           "low": "27950",
           "close": "27950",
-          "volume": "4001"
+          "volume": "4056"
         }
       ],
       "base_rank_14d": 119,
@@ -83351,7 +83351,7 @@
       "name": "대웅제약",
       "live_rank_14d": 83,
       "live_price": 125000,
-      "live_position_pct": "65.24",
+      "live_position_pct": "66.38",
       "box_low": "113550.00",
       "box_high": "131100.00",
       "target_price_10pct": "124905.00",
@@ -83366,8 +83366,8 @@
       "reach_days_5pct": 2,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-7.04",
-      "discount_from_window_high_pct": "7.04",
+      "current_vs_window_high_pct": "-6.87",
+      "discount_from_window_high_pct": "6.87",
       "lower_trend_pct": "1.88",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -84356,7 +84356,7 @@
           "high": "125200",
           "low": "124600",
           "close": "125000",
-          "volume": "1292"
+          "volume": "1296"
         }
       ],
       "base_rank_14d": 116,
@@ -84366,8 +84366,8 @@
       "symbol": "207940",
       "name": "삼성바이오로직스",
       "live_rank_14d": 84,
-      "live_price": 1548000,
-      "live_position_pct": "77.23",
+      "live_price": 1549000,
+      "live_position_pct": "81.31",
       "box_low": "1434400.00",
       "box_high": "1581500.00",
       "target_price_10pct": "1577840.00",
@@ -84382,15 +84382,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.17",
-      "discount_from_window_high_pct": "5.17",
+      "current_vs_window_high_pct": "-4.76",
+      "discount_from_window_high_pct": "4.76",
       "lower_trend_pct": "11.96",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 6000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": 6000,
-      "intraday_flow_strength_pct": "12.52",
+      "intraday_flow_strength_pct": "12.49",
       "closes": [
         "1489000",
         "1505000",
@@ -84489,7 +84489,7 @@
         "1570000",
         "1557000",
         "1551000",
-        "1548000"
+        "1549000"
       ],
       "chart_bars": [
         {
@@ -85370,9 +85370,9 @@
           "bucket": "15",
           "open": "1552000",
           "high": "1553000",
-          "low": "1548000",
-          "close": "1548000",
-          "volume": "646"
+          "low": "1547500",
+          "close": "1549000",
+          "volume": "664"
         }
       ],
       "base_rank_14d": 117,
@@ -85406,7 +85406,7 @@
       "intraday_foreign_net_qty": -20000,
       "intraday_institution_net_qty": 10000,
       "intraday_combined_net_qty": -10000,
-      "intraday_flow_strength_pct": "-15.43",
+      "intraday_flow_strength_pct": "-15.47",
       "closes": [
         "55400",
         "54300",
@@ -86388,7 +86388,7 @@
           "high": "58000",
           "low": "57400",
           "close": "57500",
-          "volume": "1656"
+          "volume": "1488"
         }
       ],
       "base_rank_14d": 121,
@@ -86399,7 +86399,7 @@
       "name": "크래프톤",
       "live_rank_14d": 86,
       "live_price": 234500,
-      "live_position_pct": "22.25",
+      "live_position_pct": "24.49",
       "box_low": "229550.00",
       "box_high": "251800.00",
       "target_price_10pct": "252505.00",
@@ -86414,15 +86414,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-13.01",
-      "discount_from_window_high_pct": "13.01",
+      "current_vs_window_high_pct": "-12.77",
+      "discount_from_window_high_pct": "12.77",
       "lower_trend_pct": "0.86",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 4000,
       "intraday_institution_net_qty": -8000,
       "intraday_combined_net_qty": -4000,
-      "intraday_flow_strength_pct": "-6.41",
+      "intraday_flow_strength_pct": "-6.40",
       "closes": [
         "239000",
         "236000",
@@ -87404,7 +87404,7 @@
           "high": "235000",
           "low": "234000",
           "close": "234500",
-          "volume": "2090"
+          "volume": "2109"
         }
       ],
       "base_rank_14d": 125,
@@ -87414,8 +87414,8 @@
       "symbol": "316140",
       "name": "우리금융지주",
       "live_rank_14d": 87,
-      "live_price": 32975,
-      "live_position_pct": "55.21",
+      "live_price": 33000,
+      "live_position_pct": "57.54",
       "box_low": "31200.00",
       "box_high": "34415.00",
       "target_price_10pct": "34320.00",
@@ -87430,15 +87430,15 @@
       "reach_days_5pct": 2,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.69",
-      "discount_from_window_high_pct": "5.69",
+      "current_vs_window_high_pct": "-5.45",
+      "discount_from_window_high_pct": "5.45",
       "lower_trend_pct": "9.47",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -201000,
       "intraday_institution_net_qty": 59000,
       "intraday_combined_net_qty": -142000,
-      "intraday_flow_strength_pct": "-14.17",
+      "intraday_flow_strength_pct": "-14.13",
       "closes": [
         "30725",
         "30575",
@@ -87537,7 +87537,7 @@
         "33250",
         "33200",
         "33100",
-        "32975"
+        "33000"
       ],
       "chart_bars": [
         {
@@ -88419,8 +88419,8 @@
           "open": "33100",
           "high": "33100",
           "low": "32950",
-          "close": "32975",
-          "volume": "29985"
+          "close": "33000",
+          "volume": "30921"
         }
       ],
       "base_rank_14d": 126,
@@ -88430,8 +88430,8 @@
       "symbol": "001800",
       "name": "오리온홀딩스",
       "live_rank_14d": 88,
-      "live_price": 26850,
-      "live_position_pct": "58.32",
+      "live_price": 26900,
+      "live_position_pct": "60.03",
       "box_low": "25150.00",
       "box_high": "28065.00",
       "target_price_10pct": "27665.00",
@@ -88446,8 +88446,8 @@
       "reach_days_5pct": 1,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-7.08",
-      "discount_from_window_high_pct": "7.08",
+      "current_vs_window_high_pct": "-6.88",
+      "discount_from_window_high_pct": "6.88",
       "lower_trend_pct": "6.56",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -88553,7 +88553,7 @@
         "27050",
         "26950",
         "26900",
-        "26850"
+        "26900"
       ],
       "chart_bars": [
         {
@@ -89435,8 +89435,8 @@
           "open": "26850",
           "high": "26950",
           "low": "26850",
-          "close": "26850",
-          "volume": "1811"
+          "close": "26900",
+          "volume": "1746"
         }
       ],
       "base_rank_14d": 127,
@@ -89446,8 +89446,8 @@
       "symbol": "005830",
       "name": "DB손해보험",
       "live_rank_14d": 89,
-      "live_price": 158300,
-      "live_position_pct": "28.10",
+      "live_price": 158600,
+      "live_position_pct": "33.87",
       "box_low": "153910.00",
       "box_high": "169530.00",
       "target_price_10pct": "169301.00",
@@ -89462,15 +89462,15 @@
       "reach_days_5pct": 4,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-8.91",
-      "discount_from_window_high_pct": "8.91",
+      "current_vs_window_high_pct": "-8.29",
+      "discount_from_window_high_pct": "8.29",
       "lower_trend_pct": "-2.17",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -9000,
       "intraday_institution_net_qty": -15000,
       "intraday_combined_net_qty": -24000,
-      "intraday_flow_strength_pct": "-23.23",
+      "intraday_flow_strength_pct": "-23.22",
       "closes": [
         "171000",
         "170900",
@@ -89569,7 +89569,7 @@
         "159000",
         "158200",
         "159200",
-        "158300"
+        "158600"
       ],
       "chart_bars": [
         {
@@ -90451,8 +90451,8 @@
           "open": "159200",
           "high": "159500",
           "low": "158300",
-          "close": "158300",
-          "volume": "4952"
+          "close": "158600",
+          "volume": "4981"
         }
       ],
       "base_rank_14d": 128,
@@ -90462,8 +90462,8 @@
       "symbol": "021240",
       "name": "코웨이",
       "live_rank_14d": 90,
-      "live_price": 95400,
-      "live_position_pct": "71.78",
+      "live_price": 95300,
+      "live_position_pct": "76.73",
       "box_low": "89600.00",
       "box_high": "97680.00",
       "target_price_10pct": "98560.00",
@@ -90478,15 +90478,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-6.60",
-      "discount_from_window_high_pct": "6.60",
-      "lower_trend_pct": "7.31",
+      "current_vs_window_high_pct": "-6.16",
+      "discount_from_window_high_pct": "6.16",
+      "lower_trend_pct": "7.20",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -36000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -36000,
-      "intraday_flow_strength_pct": "-28.34",
+      "intraday_flow_strength_pct": "-28.32",
       "closes": [
         "91400",
         "91000",
@@ -90585,7 +90585,7 @@
         "97300",
         "97100",
         "95900",
-        "95400"
+        "95300"
       ],
       "chart_bars": [
         {
@@ -91466,9 +91466,9 @@
           "bucket": "15",
           "open": "95800",
           "high": "96000",
-          "low": "95400",
-          "close": "95400",
-          "volume": "9616"
+          "low": "95300",
+          "close": "95300",
+          "volume": "9675"
         }
       ],
       "base_rank_14d": 130,
@@ -91502,7 +91502,7 @@
       "intraday_foreign_net_qty": 0,
       "intraday_institution_net_qty": 12000,
       "intraday_combined_net_qty": 12000,
-      "intraday_flow_strength_pct": "6.81",
+      "intraday_flow_strength_pct": "6.79",
       "closes": [
         "119300",
         "122800",
@@ -92484,7 +92484,7 @@
           "high": "119500",
           "low": "119000",
           "close": "119100",
-          "volume": "3326"
+          "volume": "3458"
         }
       ],
       "base_rank_14d": 129,
@@ -92494,8 +92494,8 @@
       "symbol": "008770",
       "name": "호텔신라",
       "live_rank_14d": 92,
-      "live_price": 43950,
-      "live_position_pct": "47.79",
+      "live_price": 43900,
+      "live_position_pct": "48.49",
       "box_low": "40550.00",
       "box_high": "47665.00",
       "target_price_10pct": "44605.00",
@@ -92510,15 +92510,15 @@
       "reach_days_5pct": 0,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-9.67",
-      "discount_from_window_high_pct": "9.67",
+      "current_vs_window_high_pct": "-9.55",
+      "discount_from_window_high_pct": "9.55",
       "lower_trend_pct": "-5.40",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -16000,
       "intraday_institution_net_qty": 1000,
       "intraday_combined_net_qty": -15000,
-      "intraday_flow_strength_pct": "-13.24",
+      "intraday_flow_strength_pct": "-13.21",
       "closes": [
         "47600",
         "47400",
@@ -92617,7 +92617,7 @@
         "44100",
         "44000",
         "44050",
-        "43950"
+        "43900"
       ],
       "chart_bars": [
         {
@@ -93499,8 +93499,8 @@
           "open": "44000",
           "high": "44050",
           "low": "43900",
-          "close": "43950",
-          "volume": "4494"
+          "close": "43900",
+          "volume": "4572"
         }
       ],
       "base_rank_14d": 131,
@@ -93511,7 +93511,7 @@
       "name": "롯데쇼핑",
       "live_rank_14d": 93,
       "live_price": 97100,
-      "live_position_pct": "1.10",
+      "live_position_pct": "0.10",
       "box_low": "96770.00",
       "box_high": "126810.00",
       "target_price_10pct": "106447.00",
@@ -93526,15 +93526,15 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-34.91",
-      "discount_from_window_high_pct": "34.91",
+      "current_vs_window_high_pct": "-35.33",
+      "discount_from_window_high_pct": "35.33",
       "lower_trend_pct": "-21.71",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -3000,
       "intraday_institution_net_qty": -13000,
       "intraday_combined_net_qty": -16000,
-      "intraday_flow_strength_pct": "-11.10",
+      "intraday_flow_strength_pct": "-11.08",
       "closes": [
         "125900",
         "125400",
@@ -94526,7 +94526,7 @@
       "symbol": "001430",
       "name": "세아베스틸지주",
       "live_rank_14d": 94,
-      "live_price": 41000,
+      "live_price": 40850,
       "live_position_pct": "85.00",
       "box_low": "31850.00",
       "box_high": "42615.00",
@@ -94649,7 +94649,7 @@
         "41050",
         "40900",
         "41150",
-        "41000"
+        "40850"
       ],
       "chart_bars": [
         {
@@ -95531,8 +95531,8 @@
           "open": "41150",
           "high": "41250",
           "low": "40850",
-          "close": "41000",
-          "volume": "2764"
+          "close": "40850",
+          "volume": "2789"
         }
       ],
       "base_rank_14d": 133,
@@ -95566,7 +95566,7 @@
       "intraday_foreign_net_qty": 37000,
       "intraday_institution_net_qty": -14000,
       "intraday_combined_net_qty": 23000,
-      "intraday_flow_strength_pct": "11.83",
+      "intraday_flow_strength_pct": "11.73",
       "closes": [
         "34850",
         "34850",
@@ -96559,7 +96559,7 @@
       "name": "롯데에너지머티리얼즈",
       "live_rank_14d": 96,
       "live_price": 33350,
-      "live_position_pct": "105.58",
+      "live_position_pct": "103.85",
       "box_low": "24170.00",
       "box_high": "32865.00",
       "target_price_10pct": "26587.00",
@@ -96574,15 +96574,15 @@
       "reach_days_5pct": 11,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-1.05",
-      "discount_from_window_high_pct": "1.05",
+      "current_vs_window_high_pct": "-1.51",
+      "discount_from_window_high_pct": "1.51",
       "lower_trend_pct": "6.50",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 20000,
       "intraday_institution_net_qty": -6000,
       "intraday_combined_net_qty": 14000,
-      "intraday_flow_strength_pct": "9.47",
+      "intraday_flow_strength_pct": "9.46",
       "closes": [
         "31750",
         "31300",
@@ -97574,13 +97574,13 @@
       "symbol": "047810",
       "name": "한국항공우주",
       "live_rank_14d": 97,
-      "live_price": 143900,
-      "live_position_pct": "64.09",
+      "live_price": 144100,
+      "live_position_pct": "60.27",
       "box_low": "120410.00",
       "box_high": "157060.00",
       "target_price_10pct": "132451.00",
       "amplitude_pct": "26.42",
-      "average_up_swing_pct": "25.15",
+      "average_up_swing_pct": "25.19",
       "up_swing_count": 2,
       "average_time_to_6pct_hours": "2.55",
       "median_daily_range_pct": "6.34",
@@ -97590,15 +97590,15 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-14.59",
-      "discount_from_window_high_pct": "14.59",
+      "current_vs_window_high_pct": "-15.72",
+      "discount_from_window_high_pct": "15.72",
       "lower_trend_pct": "-14.32",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -60000,
       "intraday_institution_net_qty": 8000,
       "intraday_combined_net_qty": -52000,
-      "intraday_flow_strength_pct": "-17.69",
+      "intraday_flow_strength_pct": "-17.49",
       "closes": [
         "164600",
         "163800",
@@ -97697,7 +97697,7 @@
         "140600",
         "142200",
         "143100",
-        "143900"
+        "144100"
       ],
       "chart_bars": [
         {
@@ -98577,10 +98577,10 @@
           "trading_date": "20260812",
           "bucket": "15",
           "open": "143100",
-          "high": "144000",
+          "high": "144100",
           "low": "142700",
-          "close": "143900",
-          "volume": "6089"
+          "close": "144100",
+          "volume": "7113"
         }
       ],
       "base_rank_14d": 135,
@@ -98590,8 +98590,8 @@
       "symbol": "011790",
       "name": "SKC",
       "live_rank_14d": 98,
-      "live_price": 87300,
-      "live_position_pct": "104.86",
+      "live_price": 87200,
+      "live_position_pct": "103.95",
       "box_low": "64220.00",
       "box_high": "86230.00",
       "target_price_10pct": "70642.00",
@@ -98606,15 +98606,15 @@
       "reach_days_5pct": 8,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-0.69",
-      "discount_from_window_high_pct": "0.69",
+      "current_vs_window_high_pct": "-0.92",
+      "discount_from_window_high_pct": "0.92",
       "lower_trend_pct": "2.96",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 34000,
       "intraday_institution_net_qty": -19000,
       "intraday_combined_net_qty": 15000,
-      "intraday_flow_strength_pct": "12.48",
+      "intraday_flow_strength_pct": "12.44",
       "closes": [
         "84300",
         "84100",
@@ -98713,7 +98713,7 @@
         "87200",
         "87000",
         "87400",
-        "87300"
+        "87200"
       ],
       "chart_bars": [
         {
@@ -99595,8 +99595,8 @@
           "open": "87450",
           "high": "87500",
           "low": "87100",
-          "close": "87300",
-          "volume": "2046"
+          "close": "87200",
+          "volume": "2128"
         }
       ],
       "base_rank_14d": 93,
@@ -99606,8 +99606,8 @@
       "symbol": "034020",
       "name": "두산에너빌리티",
       "live_rank_14d": 99,
-      "live_price": 80300,
-      "live_position_pct": "104.89",
+      "live_price": 80400,
+      "live_position_pct": "105.93",
       "box_low": "60120.00",
       "box_high": "79360.00",
       "target_price_10pct": "66132.00",
@@ -99622,15 +99622,15 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-1.49",
-      "discount_from_window_high_pct": "1.49",
+      "current_vs_window_high_pct": "-1.24",
+      "discount_from_window_high_pct": "1.24",
       "lower_trend_pct": "9.55",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 307000,
       "intraday_institution_net_qty": 170000,
       "intraday_combined_net_qty": 477000,
-      "intraday_flow_strength_pct": "26.80",
+      "intraday_flow_strength_pct": "26.63",
       "closes": [
         "72900",
         "73200",
@@ -99729,7 +99729,7 @@
         "80200",
         "80800",
         "80900",
-        "80300"
+        "80400"
       ],
       "chart_bars": [
         {
@@ -100611,8 +100611,8 @@
           "open": "81000",
           "high": "81000",
           "low": "80300",
-          "close": "80300",
-          "volume": "53544"
+          "close": "80400",
+          "volume": "56405"
         }
       ],
       "base_rank_14d": 137,
@@ -100623,7 +100623,7 @@
       "name": "한미약품",
       "live_rank_14d": 100,
       "live_price": 396500,
-      "live_position_pct": "88.44",
+      "live_position_pct": "87.92",
       "box_low": "312700.00",
       "box_high": "407450.00",
       "target_price_10pct": "343970.00",
@@ -100638,15 +100638,15 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-8.45",
-      "discount_from_window_high_pct": "8.45",
+      "current_vs_window_high_pct": "-8.59",
+      "discount_from_window_high_pct": "8.59",
       "lower_trend_pct": "3.02",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 8000,
       "intraday_institution_net_qty": -7000,
       "intraday_combined_net_qty": 1000,
-      "intraday_flow_strength_pct": "1.49",
+      "intraday_flow_strength_pct": "1.48",
       "closes": [
         "392000",
         "392500",
@@ -101628,7 +101628,7 @@
           "high": "398000",
           "low": "396500",
           "close": "396500",
-          "volume": "736"
+          "volume": "737"
         }
       ],
       "base_rank_14d": 94,
@@ -101638,8 +101638,8 @@
       "symbol": "064350",
       "name": "현대로템",
       "live_rank_14d": 101,
-      "live_price": 145900,
-      "live_position_pct": "83.27",
+      "live_price": 146000,
+      "live_position_pct": "84.24",
       "box_low": "120070.00",
       "box_high": "151090.00",
       "target_price_10pct": "132077.00",
@@ -101654,15 +101654,15 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 2,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-18.57",
-      "discount_from_window_high_pct": "18.57",
+      "current_vs_window_high_pct": "-18.33",
+      "discount_from_window_high_pct": "18.33",
       "lower_trend_pct": "-6.56",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 30000,
       "intraday_institution_net_qty": -9000,
       "intraday_combined_net_qty": 21000,
-      "intraday_flow_strength_pct": "10.45",
+      "intraday_flow_strength_pct": "10.40",
       "closes": [
         "172400",
         "167500",
@@ -101761,7 +101761,7 @@
         "145300",
         "145700",
         "146300",
-        "145900"
+        "146000"
       ],
       "chart_bars": [
         {
@@ -102643,8 +102643,8 @@
           "open": "146400",
           "high": "146600",
           "low": "145700",
-          "close": "145900",
-          "volume": "3005"
+          "close": "146000",
+          "volume": "3221"
         }
       ],
       "base_rank_14d": 95,
@@ -103694,7 +103694,7 @@
       "intraday_foreign_net_qty": -3000,
       "intraday_institution_net_qty": -1000,
       "intraday_combined_net_qty": -4000,
-      "intraday_flow_strength_pct": "-17.52",
+      "intraday_flow_strength_pct": "-17.51",
       "closes": [
         "228500",
         "227000",
@@ -104676,7 +104676,7 @@
           "high": "235500",
           "low": "233000",
           "close": "233500",
-          "volume": "1611"
+          "volume": "1616"
         }
       ],
       "base_rank_14d": 139,
@@ -104686,7 +104686,7 @@
       "symbol": "267250",
       "name": "HD현대",
       "live_rank_14d": 104,
-      "live_price": 231000,
+      "live_price": 231500,
       "live_position_pct": "104.15",
       "box_low": "193380.00",
       "box_high": "229500.00",
@@ -104710,7 +104710,7 @@
       "intraday_foreign_net_qty": -21000,
       "intraday_institution_net_qty": 2000,
       "intraday_combined_net_qty": -19000,
-      "intraday_flow_strength_pct": "-20.33",
+      "intraday_flow_strength_pct": "-20.24",
       "closes": [
         "229000",
         "227000",
@@ -104809,7 +104809,7 @@
         "228000",
         "227500",
         "230000",
-        "231000"
+        "231500"
       ],
       "chart_bars": [
         {
@@ -105689,10 +105689,10 @@
           "trading_date": "20260812",
           "bucket": "15",
           "open": "230000",
-          "high": "231000",
+          "high": "232000",
           "low": "229500",
-          "close": "231000",
-          "volume": "1876"
+          "close": "231500",
+          "volume": "2286"
         }
       ],
       "base_rank_14d": 96,
@@ -105702,8 +105702,8 @@
       "symbol": "282330",
       "name": "BGF리테일",
       "live_rank_14d": 105,
-      "live_price": 145300,
-      "live_position_pct": "75.03",
+      "live_price": 145100,
+      "live_position_pct": "74.08",
       "box_low": "121770.00",
       "box_high": "153130.00",
       "target_price_10pct": "133947.00",
@@ -105718,15 +105718,15 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-7.78",
-      "discount_from_window_high_pct": "7.78",
-      "lower_trend_pct": "24.38",
+      "current_vs_window_high_pct": "-8.00",
+      "discount_from_window_high_pct": "8.00",
+      "lower_trend_pct": "24.25",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 5000,
       "intraday_institution_net_qty": 1000,
       "intraday_combined_net_qty": 6000,
-      "intraday_flow_strength_pct": "14.91",
+      "intraday_flow_strength_pct": "14.90",
       "closes": [
         "121400",
         "123000",
@@ -105825,7 +105825,7 @@
         "148100",
         "146800",
         "145350",
-        "145300"
+        "145100"
       ],
       "chart_bars": [
         {
@@ -106706,9 +106706,9 @@
           "bucket": "15",
           "open": "145500",
           "high": "146000",
-          "low": "145200",
-          "close": "145300",
-          "volume": "2434"
+          "low": "145100",
+          "close": "145100",
+          "volume": "2452"
         }
       ],
       "base_rank_14d": 138,
@@ -106718,8 +106718,8 @@
       "symbol": "329180",
       "name": "HD현대중공업",
       "live_rank_14d": 106,
-      "live_price": 495000,
-      "live_position_pct": "71.59",
+      "live_price": 496000,
+      "live_position_pct": "72.99",
       "box_low": "443850.00",
       "box_high": "515300.00",
       "target_price_10pct": "488235.00",
@@ -106734,15 +106734,15 @@
       "reach_days_5pct": 6,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-9.49",
-      "discount_from_window_high_pct": "9.49",
+      "current_vs_window_high_pct": "-9.27",
+      "discount_from_window_high_pct": "9.27",
       "lower_trend_pct": "0.10",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 0,
       "intraday_institution_net_qty": -14000,
       "intraday_combined_net_qty": -14000,
-      "intraday_flow_strength_pct": "-6.59",
+      "intraday_flow_strength_pct": "-6.57",
       "closes": [
         "505000",
         "497500",
@@ -106841,7 +106841,7 @@
         "501000",
         "497000",
         "497500",
-        "495000"
+        "496000"
       ],
       "chart_bars": [
         {
@@ -107723,8 +107723,8 @@
           "open": "498000",
           "high": "498500",
           "low": "494500",
-          "close": "495000",
-          "volume": "2993"
+          "close": "496000",
+          "volume": "3009"
         }
       ],
       "base_rank_14d": 100,
@@ -107758,7 +107758,7 @@
       "intraday_foreign_net_qty": -1000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -1000,
-      "intraday_flow_strength_pct": "-0.59",
+      "intraday_flow_strength_pct": "-0.58",
       "closes": [
         "19710",
         "19560",
@@ -108740,7 +108740,7 @@
           "high": "21350",
           "low": "21250",
           "close": "21300",
-          "volume": "4015"
+          "volume": "4217"
         }
       ],
       "base_rank_14d": 105,
@@ -108750,8 +108750,8 @@
       "symbol": "011780",
       "name": "금호석유화학",
       "live_rank_14d": 108,
-      "live_price": 126300,
-      "live_position_pct": "88.26",
+      "live_price": 126600,
+      "live_position_pct": "90.02",
       "box_low": "111270.00",
       "box_high": "128300.00",
       "target_price_10pct": "122397.00",
@@ -108766,15 +108766,15 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 1,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-10.06",
-      "discount_from_window_high_pct": "10.06",
+      "current_vs_window_high_pct": "-9.79",
+      "discount_from_window_high_pct": "9.79",
       "lower_trend_pct": "2.87",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 35000,
       "intraday_institution_net_qty": -1000,
       "intraday_combined_net_qty": 34000,
-      "intraday_flow_strength_pct": "46.94",
+      "intraday_flow_strength_pct": "46.89",
       "closes": [
         "125400",
         "125200",
@@ -108873,7 +108873,7 @@
         "127200",
         "126900",
         "126700",
-        "126300"
+        "126600"
       ],
       "chart_bars": [
         {
@@ -109755,8 +109755,8 @@
           "open": "126700",
           "high": "126800",
           "low": "126300",
-          "close": "126300",
-          "volume": "2808"
+          "close": "126600",
+          "volume": "2880"
         }
       ],
       "base_rank_14d": 106,
@@ -109766,8 +109766,8 @@
       "symbol": "000100",
       "name": "유한양행",
       "live_rank_14d": 109,
-      "live_price": 83200,
-      "live_position_pct": "89.27",
+      "live_price": 83300,
+      "live_position_pct": "91.30",
       "box_low": "69970.00",
       "box_high": "84790.00",
       "target_price_10pct": "76967.00",
@@ -109782,15 +109782,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.17",
-      "discount_from_window_high_pct": "5.17",
+      "current_vs_window_high_pct": "-4.79",
+      "discount_from_window_high_pct": "4.79",
       "lower_trend_pct": "12.45",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -80000,
       "intraday_institution_net_qty": 1000,
       "intraday_combined_net_qty": -79000,
-      "intraday_flow_strength_pct": "-33.42",
+      "intraday_flow_strength_pct": "-33.36",
       "closes": [
         "76000",
         "75300",
@@ -109889,7 +109889,7 @@
         "84600",
         "84300",
         "83600",
-        "83200"
+        "83300"
       ],
       "chart_bars": [
         {
@@ -110771,8 +110771,8 @@
           "open": "83600",
           "high": "83600",
           "low": "83200",
-          "close": "83200",
-          "volume": "4652"
+          "close": "83300",
+          "volume": "4771"
         }
       ],
       "base_rank_14d": 102,
@@ -110783,7 +110783,7 @@
       "name": "LG화학",
       "live_rank_14d": 110,
       "live_price": 276000,
-      "live_position_pct": "95.76",
+      "live_position_pct": "97.05",
       "box_low": "238700.00",
       "box_high": "277650.00",
       "target_price_10pct": "262570.00",
@@ -110798,15 +110798,15 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-3.08",
-      "discount_from_window_high_pct": "3.08",
+      "current_vs_window_high_pct": "-2.89",
+      "discount_from_window_high_pct": "2.89",
       "lower_trend_pct": "6.04",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 2000,
       "intraday_institution_net_qty": 1000,
       "intraday_combined_net_qty": 3000,
-      "intraday_flow_strength_pct": "3.97",
+      "intraday_flow_strength_pct": "3.96",
       "closes": [
         "264500",
         "263500",
@@ -111788,7 +111788,7 @@
           "high": "277000",
           "low": "275500",
           "close": "276000",
-          "volume": "673"
+          "volume": "722"
         }
       ],
       "base_rank_14d": 108,
@@ -111798,8 +111798,8 @@
       "symbol": "006280",
       "name": "녹십자",
       "live_rank_14d": 111,
-      "live_price": 129700,
-      "live_position_pct": "85.85",
+      "live_price": 129600,
+      "live_position_pct": "85.36",
       "box_low": "112170.00",
       "box_high": "132590.00",
       "target_price_10pct": "123387.00",
@@ -111814,15 +111814,15 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-4.86",
-      "discount_from_window_high_pct": "4.86",
+      "current_vs_window_high_pct": "-4.94",
+      "discount_from_window_high_pct": "4.94",
       "lower_trend_pct": "7.67",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -6000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -6000,
-      "intraday_flow_strength_pct": "-30.72",
+      "intraday_flow_strength_pct": "-30.70",
       "closes": [
         "123900",
         "125400",
@@ -111921,7 +111921,7 @@
         "130000",
         "130100",
         "130300",
-        "129700"
+        "129600"
       ],
       "chart_bars": [
         {
@@ -112803,8 +112803,8 @@
           "open": "130400",
           "high": "130500",
           "low": "129600",
-          "close": "129700",
-          "volume": "1170"
+          "close": "129600",
+          "volume": "1188"
         }
       ],
       "base_rank_14d": 110,
@@ -112814,8 +112814,8 @@
       "symbol": "373220",
       "name": "LG에너지솔루션",
       "live_rank_14d": 112,
-      "live_price": 358500,
-      "live_position_pct": "90.74",
+      "live_price": 358000,
+      "live_position_pct": "91.67",
       "box_low": "310000.00",
       "box_high": "363450.00",
       "target_price_10pct": "341000.00",
@@ -112830,15 +112830,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-3.63",
-      "discount_from_window_high_pct": "3.63",
+      "current_vs_window_high_pct": "-3.48",
+      "discount_from_window_high_pct": "3.48",
       "lower_trend_pct": "8.28",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 7000,
       "intraday_institution_net_qty": 6000,
       "intraday_combined_net_qty": 13000,
-      "intraday_flow_strength_pct": "7.63",
+      "intraday_flow_strength_pct": "7.55",
       "closes": [
         "335500",
         "332500",
@@ -112937,7 +112937,7 @@
         "361500",
         "359500",
         "361000",
-        "358500"
+        "358000"
       ],
       "chart_bars": [
         {
@@ -113819,8 +113819,8 @@
           "open": "360500",
           "high": "360500",
           "low": "358000",
-          "close": "358500",
-          "volume": "2131"
+          "close": "358000",
+          "volume": "2214"
         }
       ],
       "base_rank_14d": 109,
@@ -113830,8 +113830,8 @@
       "symbol": "326030",
       "name": "SK바이오팜",
       "live_rank_14d": 113,
-      "live_price": 88200,
-      "live_position_pct": "90.95",
+      "live_price": 88400,
+      "live_position_pct": "91.75",
       "box_low": "76840.00",
       "box_high": "89330.00",
       "target_price_10pct": "84524.00",
@@ -113846,15 +113846,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.10",
-      "discount_from_window_high_pct": "5.10",
+      "current_vs_window_high_pct": "-4.98",
+      "discount_from_window_high_pct": "4.98",
       "lower_trend_pct": "11.39",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -12000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -12000,
-      "intraday_flow_strength_pct": "-15.11",
+      "intraday_flow_strength_pct": "-15.05",
       "closes": [
         "82400",
         "81600",
@@ -113953,7 +113953,7 @@
         "88900",
         "88500",
         "88650",
-        "88200"
+        "88400"
       ],
       "chart_bars": [
         {
@@ -114835,8 +114835,8 @@
           "open": "88600",
           "high": "88600",
           "low": "88100",
-          "close": "88200",
-          "volume": "2887"
+          "close": "88400",
+          "volume": "2985"
         }
       ],
       "base_rank_14d": 112,
@@ -114846,8 +114846,8 @@
       "symbol": "004020",
       "name": "현대제철",
       "live_rank_14d": 114,
-      "live_price": 28650,
-      "live_position_pct": "96.42",
+      "live_price": 28750,
+      "live_position_pct": "98.81",
       "box_low": "24605.00",
       "box_high": "28800.00",
       "target_price_10pct": "27065.50",
@@ -114862,15 +114862,15 @@
       "reach_days_5pct": 4,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-1.57",
-      "discount_from_window_high_pct": "1.57",
+      "current_vs_window_high_pct": "-1.22",
+      "discount_from_window_high_pct": "1.22",
       "lower_trend_pct": "2.93",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -66000,
       "intraday_institution_net_qty": -4000,
       "intraday_combined_net_qty": -70000,
-      "intraday_flow_strength_pct": "-23.35",
+      "intraday_flow_strength_pct": "-23.29",
       "closes": [
         "28000",
         "27800",
@@ -114969,7 +114969,7 @@
         "28600",
         "28600",
         "28700",
-        "28650"
+        "28750"
       ],
       "chart_bars": [
         {
@@ -115851,8 +115851,8 @@
           "open": "28700",
           "high": "28800",
           "low": "28650",
-          "close": "28650",
-          "volume": "6265"
+          "close": "28750",
+          "volume": "6520"
         }
       ],
       "base_rank_14d": 111,
@@ -115862,7 +115862,7 @@
       "symbol": "036570",
       "name": "NC",
       "live_rank_14d": 115,
-      "live_price": 247000,
+      "live_price": 247500,
       "live_position_pct": "92.22",
       "box_low": "221500.00",
       "box_high": "249150.00",
@@ -115886,7 +115886,7 @@
       "intraday_foreign_net_qty": -2000,
       "intraday_institution_net_qty": -7000,
       "intraday_combined_net_qty": -9000,
-      "intraday_flow_strength_pct": "-9.46",
+      "intraday_flow_strength_pct": "-9.43",
       "closes": [
         "229500",
         "226000",
@@ -115985,7 +115985,7 @@
         "251000",
         "250500",
         "248000",
-        "247000"
+        "247500"
       ],
       "chart_bars": [
         {
@@ -116866,9 +116866,9 @@
           "bucket": "15",
           "open": "248000",
           "high": "248500",
-          "low": "247000",
-          "close": "247000",
-          "volume": "2659"
+          "low": "246500",
+          "close": "247500",
+          "volume": "2962"
         }
       ],
       "base_rank_14d": 144,
@@ -116879,7 +116879,7 @@
       "name": "포스코인터내셔널",
       "live_rank_14d": 116,
       "live_price": 55700,
-      "live_position_pct": "79.45",
+      "live_position_pct": "80.82",
       "box_low": "49900.00",
       "box_high": "57200.00",
       "target_price_10pct": "54890.00",
@@ -116894,15 +116894,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-4.49",
-      "discount_from_window_high_pct": "4.49",
+      "current_vs_window_high_pct": "-4.30",
+      "discount_from_window_high_pct": "4.30",
       "lower_trend_pct": "0.54",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 20000,
       "intraday_institution_net_qty": -32000,
       "intraday_combined_net_qty": -12000,
-      "intraday_flow_strength_pct": "-4.41",
+      "intraday_flow_strength_pct": "-4.39",
       "closes": [
         "57400",
         "57200",
@@ -117884,7 +117884,7 @@
           "high": "55900",
           "low": "55700",
           "close": "55700",
-          "volume": "4742"
+          "volume": "5484"
         }
       ],
       "base_rank_14d": 113,
@@ -117918,7 +117918,7 @@
       "intraday_foreign_net_qty": -1000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -1000,
-      "intraday_flow_strength_pct": "-10.86",
+      "intraday_flow_strength_pct": "-10.79",
       "closes": [
         "267000",
         "265000",
@@ -118900,7 +118900,7 @@
           "high": "234000",
           "low": "230000",
           "close": "231000",
-          "volume": "647"
+          "volume": "689"
         }
       ],
       "base_rank_14d": 140,
@@ -118910,8 +118910,8 @@
       "symbol": "294870",
       "name": "IPARK현대산업개발",
       "live_rank_14d": 118,
-      "live_price": 21700,
-      "live_position_pct": "70.18",
+      "live_price": 21750,
+      "live_position_pct": "71.67",
       "box_low": "19347.00",
       "box_high": "22700.00",
       "target_price_10pct": "21281.70",
@@ -118926,15 +118926,15 @@
       "reach_days_5pct": 4,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.99",
-      "discount_from_window_high_pct": "5.99",
-      "lower_trend_pct": "6.11",
+      "current_vs_window_high_pct": "-5.75",
+      "discount_from_window_high_pct": "5.75",
+      "lower_trend_pct": "6.36",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -10000,
       "intraday_institution_net_qty": 15000,
       "intraday_combined_net_qty": 5000,
-      "intraday_flow_strength_pct": "3.24",
+      "intraday_flow_strength_pct": "3.25",
       "closes": [
         "21300",
         "21350",
@@ -119033,7 +119033,7 @@
         "22300",
         "22000",
         "21800",
-        "21700"
+        "21750"
       ],
       "chart_bars": [
         {
@@ -119914,9 +119914,9 @@
           "bucket": "15",
           "open": "21850",
           "high": "21950",
-          "low": "21700",
-          "close": "21700",
-          "volume": "8786"
+          "low": "21750",
+          "close": "21750",
+          "volume": "8356"
         }
       ],
       "base_rank_14d": 142,
@@ -119926,8 +119926,8 @@
       "symbol": "016360",
       "name": "삼성증권",
       "live_rank_14d": 119,
-      "live_price": 92800,
-      "live_position_pct": "24.21",
+      "live_price": 93100,
+      "live_position_pct": "27.01",
       "box_low": "90210.00",
       "box_high": "100910.00",
       "target_price_10pct": "99231.00",
@@ -119942,15 +119942,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-11.53",
-      "discount_from_window_high_pct": "11.53",
+      "current_vs_window_high_pct": "-11.17",
+      "discount_from_window_high_pct": "11.17",
       "lower_trend_pct": "-5.89",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -11000,
       "intraday_institution_net_qty": 1000,
       "intraday_combined_net_qty": -10000,
-      "intraday_flow_strength_pct": "-4.15",
+      "intraday_flow_strength_pct": "-4.14",
       "closes": [
         "101300",
         "100200",
@@ -120049,7 +120049,7 @@
         "93900",
         "93300",
         "93200",
-        "92800"
+        "93100"
       ],
       "chart_bars": [
         {
@@ -120931,8 +120931,8 @@
           "open": "93200",
           "high": "93200",
           "low": "92800",
-          "close": "92800",
-          "volume": "5572"
+          "close": "93100",
+          "volume": "5791"
         }
       ],
       "base_rank_14d": 145,
@@ -120942,8 +120942,8 @@
       "symbol": "010140",
       "name": "삼성중공업",
       "live_rank_14d": 120,
-      "live_price": 21700,
-      "live_position_pct": "59.43",
+      "live_price": 21750,
+      "live_position_pct": "63.49",
       "box_low": "20235.00",
       "box_high": "22700.00",
       "target_price_10pct": "22258.50",
@@ -120958,15 +120958,15 @@
       "reach_days_5pct": 4,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-9.91",
-      "discount_from_window_high_pct": "9.91",
+      "current_vs_window_high_pct": "-9.40",
+      "discount_from_window_high_pct": "9.40",
       "lower_trend_pct": "-5.30",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 67000,
       "intraday_institution_net_qty": -186000,
       "intraday_combined_net_qty": -119000,
-      "intraday_flow_strength_pct": "-5.26",
+      "intraday_flow_strength_pct": "-5.23",
       "closes": [
         "23650",
         "23400",
@@ -121065,7 +121065,7 @@
         "22050",
         "22000",
         "21800",
-        "21700"
+        "21750"
       ],
       "chart_bars": [
         {
@@ -121947,8 +121947,8 @@
           "open": "21800",
           "high": "21850",
           "low": "21700",
-          "close": "21700",
-          "volume": "164262"
+          "close": "21750",
+          "volume": "165157"
         }
       ],
       "base_rank_14d": 118,
@@ -121958,8 +121958,8 @@
       "symbol": "009970",
       "name": "영원무역홀딩스",
       "live_rank_14d": 121,
-      "live_price": 188700,
-      "live_position_pct": "2.81",
+      "live_price": 188600,
+      "live_position_pct": "3.88",
       "box_low": "188170.00",
       "box_high": "207000.00",
       "target_price_10pct": "206987.00",
@@ -121974,15 +121974,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-13.67",
-      "discount_from_window_high_pct": "13.67",
+      "current_vs_window_high_pct": "-13.55",
+      "discount_from_window_high_pct": "13.55",
       "lower_trend_pct": "-3.04",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 1000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": 1000,
-      "intraday_flow_strength_pct": "8.67",
+      "intraday_flow_strength_pct": "8.60",
       "closes": [
         "202000",
         "203000",
@@ -122081,7 +122081,7 @@
         "191800",
         "188400",
         "189300",
-        "188700"
+        "188600"
       ],
       "chart_bars": [
         {
@@ -122963,8 +122963,8 @@
           "open": "189200",
           "high": "189400",
           "low": "188600",
-          "close": "188700",
-          "volume": "709"
+          "close": "188600",
+          "volume": "782"
         }
       ],
       "base_rank_14d": 122,
@@ -122974,8 +122974,8 @@
       "symbol": "139130",
       "name": "iM금융지주",
       "live_rank_14d": 122,
-      "live_price": 16790,
-      "live_position_pct": "24.08",
+      "live_price": 16770,
+      "live_position_pct": "24.63",
       "box_low": "16353.50",
       "box_high": "18166.00",
       "target_price_10pct": "17988.85",
@@ -122990,15 +122990,15 @@
       "reach_days_5pct": 2,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-12.09",
-      "discount_from_window_high_pct": "12.09",
+      "current_vs_window_high_pct": "-12.02",
+      "discount_from_window_high_pct": "12.02",
       "lower_trend_pct": "-4.55",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -123000,
       "intraday_institution_net_qty": 19000,
       "intraday_combined_net_qty": -104000,
-      "intraday_flow_strength_pct": "-37.86",
+      "intraday_flow_strength_pct": "-37.78",
       "closes": [
         "17980",
         "18000",
@@ -123097,7 +123097,7 @@
         "16850",
         "16830",
         "16840",
-        "16790"
+        "16770"
       ],
       "chart_bars": [
         {
@@ -123978,9 +123978,9 @@
           "bucket": "15",
           "open": "16820",
           "high": "16870",
-          "low": "16790",
-          "close": "16790",
-          "volume": "12128"
+          "low": "16770",
+          "close": "16770",
+          "volume": "12661"
         }
       ],
       "base_rank_14d": 150,
@@ -124014,7 +124014,7 @@
       "intraday_foreign_net_qty": 1000,
       "intraday_institution_net_qty": 10000,
       "intraday_combined_net_qty": 11000,
-      "intraday_flow_strength_pct": "24.40",
+      "intraday_flow_strength_pct": "24.26",
       "closes": [
         "40100",
         "39700",
@@ -124996,7 +124996,7 @@
           "high": "37800",
           "low": "37600",
           "close": "37800",
-          "volume": "1901"
+          "volume": "2067"
         }
       ],
       "base_rank_14d": 123,
@@ -125006,8 +125006,8 @@
       "symbol": "005440",
       "name": "현대지에프홀딩스",
       "live_rank_14d": 124,
-      "live_price": 11470,
-      "live_position_pct": "22.19",
+      "live_price": 11480,
+      "live_position_pct": "23.84",
       "box_low": "11201.00",
       "box_high": "12413.00",
       "target_price_10pct": "12321.10",
@@ -125022,15 +125022,15 @@
       "reach_days_5pct": 2,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-11.51",
-      "discount_from_window_high_pct": "11.51",
+      "current_vs_window_high_pct": "-11.31",
+      "discount_from_window_high_pct": "11.31",
       "lower_trend_pct": "-5.92",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -95000,
       "intraday_institution_net_qty": 13000,
       "intraday_combined_net_qty": -82000,
-      "intraday_flow_strength_pct": "-28.40",
+      "intraday_flow_strength_pct": "-28.38",
       "closes": [
         "12460",
         "12360",
@@ -125129,7 +125129,7 @@
         "11600",
         "11500",
         "11470",
-        "11470"
+        "11480"
       ],
       "chart_bars": [
         {
@@ -126011,8 +126011,8 @@
           "open": "11500",
           "high": "11500",
           "low": "11470",
-          "close": "11470",
-          "volume": "7944"
+          "close": "11480",
+          "volume": "7946"
         }
       ],
       "base_rank_14d": 154,
@@ -126022,7 +126022,7 @@
       "symbol": "251270",
       "name": "넷마블",
       "live_rank_14d": 125,
-      "live_price": 39750,
+      "live_price": 39700,
       "live_position_pct": "78.24",
       "box_low": "36335.00",
       "box_high": "40700.00",
@@ -126046,7 +126046,7 @@
       "intraday_foreign_net_qty": -5000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -5000,
-      "intraday_flow_strength_pct": "-7.34",
+      "intraday_flow_strength_pct": "-7.27",
       "closes": [
         "36600",
         "36800",
@@ -126145,7 +126145,7 @@
         "40150",
         "40250",
         "39950",
-        "39750"
+        "39700"
       ],
       "chart_bars": [
         {
@@ -127026,9 +127026,9 @@
           "bucket": "15",
           "open": "39950",
           "high": "39950",
-          "low": "39750",
-          "close": "39750",
-          "volume": "4097"
+          "low": "39700",
+          "close": "39700",
+          "volume": "4595"
         }
       ],
       "base_rank_14d": 152,
@@ -127038,7 +127038,7 @@
       "symbol": "055550",
       "name": "신한지주",
       "live_rank_14d": 126,
-      "live_price": 104000,
+      "live_price": 103900,
       "live_position_pct": "54.65",
       "box_low": "99300.00",
       "box_high": "107900.00",
@@ -127056,7 +127056,7 @@
       "reach_days_15pct": 0,
       "current_vs_window_high_pct": "-6.06",
       "discount_from_window_high_pct": "6.06",
-      "lower_trend_pct": "1.96",
+      "lower_trend_pct": "1.86",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -53000,
@@ -127161,7 +127161,7 @@
         "105300",
         "104200",
         "104300",
-        "104000"
+        "103900"
       ],
       "chart_bars": [
         {
@@ -128042,9 +128042,9 @@
           "bucket": "15",
           "open": "104300",
           "high": "104400",
-          "low": "104000",
-          "close": "104000",
-          "volume": "2588"
+          "low": "103900",
+          "close": "103900",
+          "volume": "2989"
         }
       ],
       "base_rank_14d": 157,
@@ -128054,8 +128054,8 @@
       "symbol": "271560",
       "name": "오리온",
       "live_rank_14d": 127,
-      "live_price": 132700,
-      "live_position_pct": "38.49",
+      "live_price": 132600,
+      "live_position_pct": "37.43",
       "box_low": "129070.00",
       "box_high": "138500.00",
       "target_price_10pct": "141977.00",
@@ -128070,15 +128070,15 @@
       "reach_days_5pct": 2,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-8.44",
-      "discount_from_window_high_pct": "8.44",
+      "current_vs_window_high_pct": "-8.52",
+      "discount_from_window_high_pct": "8.52",
       "lower_trend_pct": "3.12",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 15000,
       "intraday_institution_net_qty": -22000,
       "intraday_combined_net_qty": -7000,
-      "intraday_flow_strength_pct": "-8.21",
+      "intraday_flow_strength_pct": "-8.15",
       "closes": [
         "128600",
         "130800",
@@ -128177,7 +128177,7 @@
         "133000",
         "132800",
         "132800",
-        "132700"
+        "132600"
       ],
       "chart_bars": [
         {
@@ -129059,8 +129059,8 @@
           "open": "132900",
           "high": "133500",
           "low": "132500",
-          "close": "132700",
-          "volume": "2950"
+          "close": "132600",
+          "volume": "3574"
         }
       ],
       "base_rank_14d": 159,
@@ -129070,7 +129070,7 @@
       "symbol": "020560",
       "name": "아시아나항공",
       "live_rank_14d": 128,
-      "live_price": 7200,
+      "live_price": 7190,
       "live_position_pct": "80.87",
       "box_low": "6680.00",
       "box_high": "7323.00",
@@ -129094,7 +129094,7 @@
       "intraday_foreign_net_qty": -11000,
       "intraday_institution_net_qty": 7000,
       "intraday_combined_net_qty": -4000,
-      "intraday_flow_strength_pct": "-5.56",
+      "intraday_flow_strength_pct": "-5.55",
       "closes": [
         "6950",
         "6920",
@@ -129193,7 +129193,7 @@
         "7250",
         "7210",
         "7210",
-        "7200"
+        "7190"
       ],
       "chart_bars": [
         {
@@ -130075,8 +130075,8 @@
           "open": "7210",
           "high": "7220",
           "low": "7180",
-          "close": "7200",
-          "volume": "1647"
+          "close": "7190",
+          "volume": "1653"
         }
       ],
       "base_rank_14d": 160,
@@ -130087,7 +130087,7 @@
       "name": "농심",
       "live_rank_14d": 129,
       "live_price": 389500,
-      "live_position_pct": "56.18",
+      "live_position_pct": "59.39",
       "box_low": "372000.00",
       "box_high": "403150.00",
       "target_price_10pct": "409200.00",
@@ -130102,15 +130102,15 @@
       "reach_days_5pct": 2,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-4.24",
-      "discount_from_window_high_pct": "4.24",
+      "current_vs_window_high_pct": "-3.97",
+      "discount_from_window_high_pct": "3.97",
       "lower_trend_pct": "7.81",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -4000,
       "intraday_institution_net_qty": 1000,
       "intraday_combined_net_qty": -3000,
-      "intraday_flow_strength_pct": "-20.24",
+      "intraday_flow_strength_pct": "-20.50",
       "closes": [
         "372000",
         "374000",
@@ -131090,9 +131090,9 @@
           "bucket": "15",
           "open": "391500",
           "high": "392500",
-          "low": "388500",
+          "low": "389000",
           "close": "389500",
-          "volume": "1350"
+          "volume": "1124"
         }
       ],
       "base_rank_14d": 156,
@@ -132119,7 +132119,7 @@
       "name": "CJ제일제당",
       "live_rank_14d": 131,
       "live_price": 187000,
-      "live_position_pct": "-1.93",
+      "live_position_pct": "-2.49",
       "box_low": "187340.00",
       "box_high": "205000.00",
       "target_price_10pct": "206074.00",
@@ -132134,15 +132134,15 @@
       "reach_days_5pct": 1,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-10.70",
-      "discount_from_window_high_pct": "10.70",
+      "current_vs_window_high_pct": "-10.75",
+      "discount_from_window_high_pct": "10.75",
       "lower_trend_pct": "-0.90",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -34000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -34000,
-      "intraday_flow_strength_pct": "-51.02",
+      "intraday_flow_strength_pct": "-50.60",
       "closes": [
         "194900",
         "194100",
@@ -133124,7 +133124,7 @@
           "high": "187700",
           "low": "187000",
           "close": "187000",
-          "volume": "1281"
+          "volume": "1649"
         }
       ],
       "base_rank_14d": 166,
@@ -133134,8 +133134,8 @@
       "symbol": "032640",
       "name": "LG유플러스",
       "live_rank_14d": 132,
-      "live_price": 14920,
-      "live_position_pct": "42.86",
+      "live_price": 14930,
+      "live_position_pct": "41.77",
       "box_low": "14527.00",
       "box_high": "15444.00",
       "target_price_10pct": "15979.70",
@@ -133150,15 +133150,15 @@
       "reach_days_5pct": 2,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.56",
-      "discount_from_window_high_pct": "5.56",
+      "current_vs_window_high_pct": "-5.63",
+      "discount_from_window_high_pct": "5.63",
       "lower_trend_pct": "2.55",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -161000,
       "intraday_institution_net_qty": -66000,
       "intraday_combined_net_qty": -227000,
-      "intraday_flow_strength_pct": "-24.05",
+      "intraday_flow_strength_pct": "-24.01",
       "closes": [
         "14770",
         "14740",
@@ -133257,7 +133257,7 @@
         "15090",
         "15000",
         "14920",
-        "14920"
+        "14930"
       ],
       "chart_bars": [
         {
@@ -134139,8 +134139,8 @@
           "open": "14920",
           "high": "14950",
           "low": "14900",
-          "close": "14920",
-          "volume": "15534"
+          "close": "14930",
+          "volume": "15983"
         }
       ],
       "base_rank_14d": 167,
@@ -134150,8 +134150,8 @@
       "symbol": "081660",
       "name": "미스토홀딩스",
       "live_rank_14d": 133,
-      "live_price": 42800,
-      "live_position_pct": "-10.32",
+      "live_price": 42850,
+      "live_position_pct": "-8.78",
       "box_low": "43135.00",
       "box_high": "46380.00",
       "target_price_10pct": "47448.50",
@@ -134166,15 +134166,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-10.16",
-      "discount_from_window_high_pct": "10.16",
+      "current_vs_window_high_pct": "-10.04",
+      "discount_from_window_high_pct": "10.04",
       "lower_trend_pct": "-2.95",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -2000,
       "intraday_institution_net_qty": -5000,
       "intraday_combined_net_qty": -7000,
-      "intraday_flow_strength_pct": "-12.57",
+      "intraday_flow_strength_pct": "-12.56",
       "closes": [
         "45400",
         "45000",
@@ -134273,7 +134273,7 @@
         "43250",
         "43100",
         "43150",
-        "42800"
+        "42850"
       ],
       "chart_bars": [
         {
@@ -135155,8 +135155,8 @@
           "open": "43200",
           "high": "43300",
           "low": "42800",
-          "close": "42800",
-          "volume": "2686"
+          "close": "42850",
+          "volume": "2741"
         }
       ],
       "base_rank_14d": 170,
@@ -135167,7 +135167,7 @@
       "name": "KT&G",
       "live_rank_14d": 134,
       "live_price": 176700,
-      "live_position_pct": "12.51",
+      "live_position_pct": "20.07",
       "box_low": "175210.00",
       "box_high": "187120.00",
       "target_price_10pct": "192731.00",
@@ -135182,15 +135182,15 @@
       "reach_days_5pct": 1,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-8.38",
-      "discount_from_window_high_pct": "8.38",
+      "current_vs_window_high_pct": "-7.83",
+      "discount_from_window_high_pct": "7.83",
       "lower_trend_pct": "-0.62",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -15000,
       "intraday_institution_net_qty": -17000,
       "intraday_combined_net_qty": -32000,
-      "intraday_flow_strength_pct": "-18.92",
+      "intraday_flow_strength_pct": "-18.90",
       "closes": [
         "183000",
         "183700",
@@ -136172,7 +136172,7 @@
           "high": "177200",
           "low": "176700",
           "close": "176700",
-          "volume": "4479"
+          "volume": "4500"
         }
       ],
       "base_rank_14d": 168,
@@ -136206,7 +136206,7 @@
       "intraday_foreign_net_qty": -179000,
       "intraday_institution_net_qty": -3000,
       "intraday_combined_net_qty": -182000,
-      "intraday_flow_strength_pct": "-31.37",
+      "intraday_flow_strength_pct": "-31.28",
       "closes": [
         "21950",
         "21900",
@@ -137188,7 +137188,7 @@
           "high": "21900",
           "low": "21800",
           "close": "21850",
-          "volume": "12317"
+          "volume": "13610"
         }
       ],
       "base_rank_14d": 172,
@@ -137199,7 +137199,7 @@
       "name": "LG전자",
       "live_rank_14d": 136,
       "live_price": 205000,
-      "live_position_pct": "137.44",
+      "live_position_pct": "135.04",
       "box_low": "147730.00",
       "box_high": "189400.00",
       "target_price_10pct": "162503.00",
@@ -137214,15 +137214,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 1,
       "reach_days_15pct": 1,
-      "current_vs_window_high_pct": "-3.66",
-      "discount_from_window_high_pct": "3.66",
+      "current_vs_window_high_pct": "-4.17",
+      "discount_from_window_high_pct": "4.17",
       "lower_trend_pct": "9.58",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 570000,
       "intraday_institution_net_qty": 273000,
       "intraday_combined_net_qty": 843000,
-      "intraday_flow_strength_pct": "29.13",
+      "intraday_flow_strength_pct": "29.03",
       "closes": [
         "175700",
         "173300",
@@ -138204,7 +138204,7 @@
           "high": "205500",
           "low": "204000",
           "close": "205000",
-          "volume": "55713"
+          "volume": "60050"
         }
       ],
       "base_rank_14d": 174,
@@ -138214,8 +138214,8 @@
       "symbol": "001720",
       "name": "신영증권",
       "live_rank_14d": 137,
-      "live_price": 158700,
-      "live_position_pct": "111.72",
+      "live_price": 158600,
+      "live_position_pct": "115.76",
       "box_low": "131050.00",
       "box_high": "155800.00",
       "target_price_10pct": "144155.00",
@@ -138230,15 +138230,15 @@
       "reach_days_5pct": 7,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-3.34",
-      "discount_from_window_high_pct": "3.34",
+      "current_vs_window_high_pct": "-2.69",
+      "discount_from_window_high_pct": "2.69",
       "lower_trend_pct": "8.41",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 1000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": 1000,
-      "intraday_flow_strength_pct": "14.30",
+      "intraday_flow_strength_pct": "14.23",
       "closes": [
         "147100",
         "146300",
@@ -138337,7 +138337,7 @@
         "159700",
         "158700",
         "159300",
-        "158700"
+        "158600"
       ],
       "chart_bars": [
         {
@@ -139218,9 +139218,9 @@
           "bucket": "15",
           "open": "159300",
           "high": "159300",
-          "low": "158700",
-          "close": "158700",
-          "volume": "348"
+          "low": "158600",
+          "close": "158600",
+          "volume": "358"
         }
       ],
       "base_rank_14d": 173,
@@ -139230,8 +139230,8 @@
       "symbol": "009540",
       "name": "HD한국조선해양",
       "live_rank_14d": 138,
-      "live_price": 380500,
-      "live_position_pct": "54.81",
+      "live_price": 380000,
+      "live_position_pct": "55.80",
       "box_low": "352850.00",
       "box_high": "403300.00",
       "target_price_10pct": "388135.00",
@@ -139246,15 +139246,15 @@
       "reach_days_5pct": 4,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-8.41",
-      "discount_from_window_high_pct": "8.41",
+      "current_vs_window_high_pct": "-8.27",
+      "discount_from_window_high_pct": "8.27",
       "lower_trend_pct": "3.13",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -16000,
       "intraday_institution_net_qty": -10000,
       "intraday_combined_net_qty": -26000,
-      "intraday_flow_strength_pct": "-17.34",
+      "intraday_flow_strength_pct": "-17.28",
       "closes": [
         "388000",
         "379000",
@@ -139353,7 +139353,7 @@
         "381500",
         "380500",
         "379500",
-        "380500"
+        "380000"
       ],
       "chart_bars": [
         {
@@ -140235,8 +140235,8 @@
           "open": "380500",
           "high": "381500",
           "low": "380000",
-          "close": "380500",
-          "volume": "1647"
+          "close": "380000",
+          "volume": "1958"
         }
       ],
       "base_rank_14d": 141,
@@ -140247,7 +140247,7 @@
       "name": "현대위아",
       "live_rank_14d": 139,
       "live_price": 65400,
-      "live_position_pct": "99.77",
+      "live_position_pct": "98.24",
       "box_low": "52370.00",
       "box_high": "65430.00",
       "target_price_10pct": "57607.00",
@@ -140262,8 +140262,8 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-1.07",
-      "discount_from_window_high_pct": "1.07",
+      "current_vs_window_high_pct": "-1.38",
+      "discount_from_window_high_pct": "1.38",
       "lower_trend_pct": "15.29",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -141252,7 +141252,7 @@
           "high": "65500",
           "low": "65000",
           "close": "65400",
-          "volume": "763"
+          "volume": "767"
         }
       ],
       "base_rank_14d": 175,
@@ -141263,7 +141263,7 @@
       "name": "다우기술",
       "live_rank_14d": 140,
       "live_price": 40800,
-      "live_position_pct": "105.65",
+      "live_position_pct": "109.68",
       "box_low": "34250.00",
       "box_high": "40450.00",
       "target_price_10pct": "37675.00",
@@ -141278,8 +141278,8 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-2.57",
-      "discount_from_window_high_pct": "2.57",
+      "current_vs_window_high_pct": "-1.95",
+      "discount_from_window_high_pct": "1.95",
       "lower_trend_pct": "5.22",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
@@ -142266,9 +142266,9 @@
           "bucket": "15",
           "open": "40950",
           "high": "41050",
-          "low": "40800",
+          "low": "40700",
           "close": "40800",
-          "volume": "1936"
+          "volume": "2033"
         }
       ],
       "base_rank_14d": 177,
@@ -142302,7 +142302,7 @@
       "intraday_foreign_net_qty": -4000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -4000,
-      "intraday_flow_strength_pct": "-16.06",
+      "intraday_flow_strength_pct": "-15.85",
       "closes": [
         "387500",
         "390500",
@@ -143284,7 +143284,7 @@
           "high": "411500",
           "low": "408000",
           "close": "408000",
-          "volume": "2439"
+          "volume": "2518"
         }
       ],
       "base_rank_14d": 176,
@@ -143294,8 +143294,8 @@
       "symbol": "003550",
       "name": "LG",
       "live_rank_14d": 142,
-      "live_price": 109300,
-      "live_position_pct": "97.87",
+      "live_price": 109500,
+      "live_position_pct": "99.05",
       "box_low": "92740.00",
       "box_high": "109660.00",
       "target_price_10pct": "102014.00",
@@ -143310,15 +143310,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-2.38",
-      "discount_from_window_high_pct": "2.38",
+      "current_vs_window_high_pct": "-2.19",
+      "discount_from_window_high_pct": "2.19",
       "lower_trend_pct": "12.03",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -5000,
       "intraday_institution_net_qty": 18000,
       "intraday_combined_net_qty": 13000,
-      "intraday_flow_strength_pct": "6.01",
+      "intraday_flow_strength_pct": "6.00",
       "closes": [
         "99800",
         "98900",
@@ -143417,7 +143417,7 @@
         "109900",
         "109400",
         "109500",
-        "109300"
+        "109500"
       ],
       "chart_bars": [
         {
@@ -144299,8 +144299,8 @@
           "open": "109400",
           "high": "109800",
           "low": "109300",
-          "close": "109300",
-          "volume": "3209"
+          "close": "109500",
+          "volume": "3250"
         }
       ],
       "base_rank_14d": 178,
@@ -144310,8 +144310,8 @@
       "symbol": "068270",
       "name": "셀트리온",
       "live_rank_14d": 143,
-      "live_price": 201500,
-      "live_position_pct": "86.57",
+      "live_price": 202000,
+      "live_position_pct": "88.34",
       "box_low": "177010.00",
       "box_high": "205300.00",
       "target_price_10pct": "194711.00",
@@ -144326,15 +144326,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.21",
-      "discount_from_window_high_pct": "5.21",
+      "current_vs_window_high_pct": "-4.95",
+      "discount_from_window_high_pct": "4.95",
       "lower_trend_pct": "17.68",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -37000,
       "intraday_institution_net_qty": -61000,
       "intraday_combined_net_qty": -98000,
-      "intraday_flow_strength_pct": "-13.89",
+      "intraday_flow_strength_pct": "-13.83",
       "closes": [
         "177800",
         "178200",
@@ -144433,7 +144433,7 @@
         "202000",
         "202500",
         "201500",
-        "201500"
+        "202000"
       ],
       "chart_bars": [
         {
@@ -145315,8 +145315,8 @@
           "open": "201500",
           "high": "202000",
           "low": "201000",
-          "close": "201500",
-          "volume": "13448"
+          "close": "202000",
+          "volume": "14937"
         }
       ],
       "base_rank_14d": 179,
@@ -145350,7 +145350,7 @@
       "intraday_foreign_net_qty": -21000,
       "intraday_institution_net_qty": -5000,
       "intraday_combined_net_qty": -26000,
-      "intraday_flow_strength_pct": "-21.02",
+      "intraday_flow_strength_pct": "-20.86",
       "closes": [
         "318000",
         "315750",
@@ -146332,7 +146332,7 @@
           "high": "325500",
           "low": "324000",
           "close": "324500",
-          "volume": "2173"
+          "volume": "2602"
         }
       ],
       "base_rank_14d": 146,
@@ -146343,7 +146343,7 @@
       "name": "롯데케미칼",
       "live_rank_14d": 145,
       "live_price": 58000,
-      "live_position_pct": "56.08",
+      "live_position_pct": "54.61",
       "box_low": "54170.00",
       "box_high": "61000.00",
       "target_price_10pct": "59587.00",
@@ -146358,15 +146358,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-9.48",
-      "discount_from_window_high_pct": "9.48",
+      "current_vs_window_high_pct": "-9.67",
+      "discount_from_window_high_pct": "9.67",
       "lower_trend_pct": "-5.12",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -40000,
       "intraday_institution_net_qty": -3000,
       "intraday_combined_net_qty": -43000,
-      "intraday_flow_strength_pct": "-47.46",
+      "intraday_flow_strength_pct": "-47.16",
       "closes": [
         "62300",
         "62100",
@@ -147348,7 +147348,7 @@
           "high": "58200",
           "low": "57900",
           "close": "58000",
-          "volume": "2108"
+          "volume": "2652"
         }
       ],
       "base_rank_14d": 149,
@@ -147359,7 +147359,7 @@
       "name": "기아",
       "live_rank_14d": 146,
       "live_price": 135100,
-      "live_position_pct": "89.92",
+      "live_position_pct": "91.67",
       "box_low": "119670.00",
       "box_high": "136830.00",
       "target_price_10pct": "131637.00",
@@ -147374,15 +147374,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-8.66",
-      "discount_from_window_high_pct": "8.66",
+      "current_vs_window_high_pct": "-8.42",
+      "discount_from_window_high_pct": "8.42",
       "lower_trend_pct": "4.02",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 67000,
       "intraday_institution_net_qty": -20000,
       "intraday_combined_net_qty": 47000,
-      "intraday_flow_strength_pct": "13.20",
+      "intraday_flow_strength_pct": "13.18",
       "closes": [
         "142100",
         "139200",
@@ -148364,7 +148364,7 @@
           "high": "136200",
           "low": "135100",
           "close": "135100",
-          "volume": "5109"
+          "volume": "5469"
         }
       ],
       "base_rank_14d": 180,
@@ -148374,8 +148374,8 @@
       "symbol": "017800",
       "name": "현대엘리베이터",
       "live_rank_14d": 147,
-      "live_price": 71000,
-      "live_position_pct": "74.29",
+      "live_price": 71100,
+      "live_position_pct": "75.78",
       "box_low": "66000.00",
       "box_high": "72730.00",
       "target_price_10pct": "72600.00",
@@ -148390,15 +148390,15 @@
       "reach_days_5pct": 2,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-3.52",
-      "discount_from_window_high_pct": "3.52",
+      "current_vs_window_high_pct": "-3.38",
+      "discount_from_window_high_pct": "3.38",
       "lower_trend_pct": "2.34",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -19000,
       "intraday_institution_net_qty": -3000,
       "intraday_combined_net_qty": -22000,
-      "intraday_flow_strength_pct": "-33.34",
+      "intraday_flow_strength_pct": "-33.24",
       "closes": [
         "70200",
         "69600",
@@ -148497,7 +148497,7 @@
         "71000",
         "70700",
         "71000",
-        "71000"
+        "71100"
       ],
       "chart_bars": [
         {
@@ -149379,8 +149379,8 @@
           "open": "71100",
           "high": "71100",
           "low": "70700",
-          "close": "71000",
-          "volume": "1898"
+          "close": "71100",
+          "volume": "2086"
         }
       ],
       "base_rank_14d": 181,
@@ -149414,7 +149414,7 @@
       "intraday_foreign_net_qty": -33000,
       "intraday_institution_net_qty": 1000,
       "intraday_combined_net_qty": -32000,
-      "intraday_flow_strength_pct": "-55.33",
+      "intraday_flow_strength_pct": "-55.20",
       "closes": [
         "34550",
         "34400",
@@ -150396,7 +150396,7 @@
           "high": "36750",
           "low": "36600",
           "close": "36600",
-          "volume": "2435"
+          "volume": "2570"
         }
       ],
       "base_rank_14d": 147,
@@ -150407,7 +150407,7 @@
       "name": "HD현대마린솔루션",
       "live_rank_14d": 149,
       "live_price": 200500,
-      "live_position_pct": "69.95",
+      "live_position_pct": "68.31",
       "box_low": "179200.00",
       "box_high": "209650.00",
       "target_price_10pct": "197120.00",
@@ -150422,15 +150422,15 @@
       "reach_days_5pct": 2,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-8.48",
-      "discount_from_window_high_pct": "8.48",
+      "current_vs_window_high_pct": "-8.75",
+      "discount_from_window_high_pct": "8.75",
       "lower_trend_pct": "-4.56",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -3000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -3000,
-      "intraday_flow_strength_pct": "-8.97",
+      "intraday_flow_strength_pct": "-8.92",
       "closes": [
         "216000",
         "212000",
@@ -151412,7 +151412,7 @@
           "high": "201000",
           "low": "199700",
           "close": "200500",
-          "volume": "2524"
+          "volume": "2662"
         }
       ],
       "base_rank_14d": 148,
@@ -151423,7 +151423,7 @@
       "name": "두산밥캣",
       "live_rank_14d": 150,
       "live_price": 63400,
-      "live_position_pct": "76.71",
+      "live_position_pct": "81.89",
       "box_low": "57470.00",
       "box_high": "65200.00",
       "target_price_10pct": "63217.00",
@@ -151438,15 +151438,15 @@
       "reach_days_5pct": 1,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-3.94",
-      "discount_from_window_high_pct": "3.94",
+      "current_vs_window_high_pct": "-3.29",
+      "discount_from_window_high_pct": "3.29",
       "lower_trend_pct": "2.94",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 7000,
       "intraday_institution_net_qty": 2000,
       "intraday_combined_net_qty": 9000,
-      "intraday_flow_strength_pct": "16.01",
+      "intraday_flow_strength_pct": "15.99",
       "closes": [
         "63400",
         "62400",
@@ -152425,10 +152425,10 @@
           "trading_date": "20260812",
           "bucket": "15",
           "open": "63600",
-          "high": "63700",
+          "high": "63800",
           "low": "63400",
           "close": "63400",
-          "volume": "3536"
+          "volume": "3595"
         }
       ],
       "base_rank_14d": 182,
@@ -152438,8 +152438,8 @@
       "symbol": "005940",
       "name": "NH투자증권",
       "live_rank_14d": 151,
-      "live_price": 28450,
-      "live_position_pct": "66.91",
+      "live_price": 28550,
+      "live_position_pct": "70.52",
       "box_low": "26600.00",
       "box_high": "29365.00",
       "target_price_10pct": "29260.00",
@@ -152454,15 +152454,15 @@
       "reach_days_5pct": 1,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.45",
-      "discount_from_window_high_pct": "5.45",
+      "current_vs_window_high_pct": "-5.08",
+      "discount_from_window_high_pct": "5.08",
       "lower_trend_pct": "-0.35",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -9000,
       "intraday_institution_net_qty": -9000,
       "intraday_combined_net_qty": -18000,
-      "intraday_flow_strength_pct": "-7.52",
+      "intraday_flow_strength_pct": "-7.47",
       "closes": [
         "29250",
         "28900",
@@ -152561,7 +152561,7 @@
         "28650",
         "28550",
         "28550",
-        "28450"
+        "28550"
       ],
       "chart_bars": [
         {
@@ -153443,8 +153443,8 @@
           "open": "28550",
           "high": "28600",
           "low": "28450",
-          "close": "28450",
-          "volume": "7845"
+          "close": "28550",
+          "volume": "7918"
         }
       ],
       "base_rank_14d": 185,
@@ -153478,7 +153478,7 @@
       "intraday_foreign_net_qty": -27000,
       "intraday_institution_net_qty": -10000,
       "intraday_combined_net_qty": -37000,
-      "intraday_flow_strength_pct": "-41.27",
+      "intraday_flow_strength_pct": "-41.24",
       "closes": [
         "48200",
         "48350",
@@ -154460,7 +154460,7 @@
           "high": "45550",
           "low": "45500",
           "close": "45550",
-          "volume": "2708"
+          "volume": "2768"
         }
       ],
       "base_rank_14d": 153,
@@ -154471,7 +154471,7 @@
       "name": "하나금융지주",
       "live_rank_14d": 153,
       "live_price": 127800,
-      "live_position_pct": "50.00",
+      "live_position_pct": "55.24",
       "box_low": "122070.00",
       "box_high": "133530.00",
       "target_price_10pct": "134277.00",
@@ -154486,15 +154486,15 @@
       "reach_days_5pct": 2,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.95",
-      "discount_from_window_high_pct": "5.95",
+      "current_vs_window_high_pct": "-5.45",
+      "discount_from_window_high_pct": "5.45",
       "lower_trend_pct": "-1.08",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 76000,
       "intraday_institution_net_qty": -5000,
       "intraday_combined_net_qty": 71000,
-      "intraday_flow_strength_pct": "17.20",
+      "intraday_flow_strength_pct": "17.16",
       "closes": [
         "132300",
         "132600",
@@ -155476,7 +155476,7 @@
           "high": "128500",
           "low": "127800",
           "close": "127800",
-          "volume": "4135"
+          "volume": "5067"
         }
       ],
       "base_rank_14d": 184,
@@ -155504,7 +155504,7 @@
       "reach_days_15pct": 0,
       "current_vs_window_high_pct": "-5.10",
       "discount_from_window_high_pct": "5.10",
-      "lower_trend_pct": "0.97",
+      "lower_trend_pct": "0.81",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -1000,
@@ -156490,9 +156490,9 @@
           "bucket": "15",
           "open": "629000",
           "high": "631000",
-          "low": "627000",
+          "low": "626000",
           "close": "627000",
-          "volume": "2464"
+          "volume": "2528"
         }
       ],
       "base_rank_14d": 186,
@@ -156503,7 +156503,7 @@
       "name": "CJ대한통운",
       "live_rank_14d": 155,
       "live_price": 74300,
-      "live_position_pct": "26.04",
+      "live_position_pct": "29.23",
       "box_low": "72670.00",
       "box_high": "78930.00",
       "target_price_10pct": "79937.00",
@@ -156518,15 +156518,15 @@
       "reach_days_5pct": 1,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-7.40",
-      "discount_from_window_high_pct": "7.40",
+      "current_vs_window_high_pct": "-7.11",
+      "discount_from_window_high_pct": "7.11",
       "lower_trend_pct": "-1.72",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -60000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -60000,
-      "intraday_flow_strength_pct": "-59.99",
+      "intraday_flow_strength_pct": "-59.94",
       "closes": [
         "77500",
         "77100",
@@ -157508,7 +157508,7 @@
           "high": "74500",
           "low": "74300",
           "close": "74300",
-          "volume": "2129"
+          "volume": "2182"
         }
       ],
       "base_rank_14d": 158,
@@ -157518,8 +157518,8 @@
       "symbol": "462870",
       "name": "시프트업",
       "live_rank_14d": 156,
-      "live_price": 31650,
-      "live_position_pct": "55.46",
+      "live_price": 31700,
+      "live_position_pct": "60.36",
       "box_low": "29950.00",
       "box_high": "33015.00",
       "target_price_10pct": "32945.00",
@@ -157534,15 +157534,15 @@
       "reach_days_5pct": 5,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-7.11",
-      "discount_from_window_high_pct": "7.11",
+      "current_vs_window_high_pct": "-6.60",
+      "discount_from_window_high_pct": "6.60",
       "lower_trend_pct": "2.49",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -5000,
       "intraday_institution_net_qty": 2000,
       "intraday_combined_net_qty": -3000,
-      "intraday_flow_strength_pct": "-2.44",
+      "intraday_flow_strength_pct": "-2.43",
       "closes": [
         "30950",
         "30700",
@@ -157641,7 +157641,7 @@
         "31950",
         "31900",
         "31900",
-        "31650"
+        "31700"
       ],
       "chart_bars": [
         {
@@ -158523,8 +158523,8 @@
           "open": "31950",
           "high": "32000",
           "low": "31650",
-          "close": "31650",
-          "volume": "1707"
+          "close": "31700",
+          "volume": "1761"
         }
       ],
       "base_rank_14d": 183,
@@ -158534,8 +158534,8 @@
       "symbol": "086280",
       "name": "현대글로비스",
       "live_rank_14d": 157,
-      "live_price": 199600,
-      "live_position_pct": "51.45",
+      "live_price": 199700,
+      "live_position_pct": "53.08",
       "box_low": "190170.00",
       "box_high": "208500.00",
       "target_price_10pct": "209187.00",
@@ -158550,15 +158550,15 @@
       "reach_days_5pct": 3,
       "reach_days_10pct": 1,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-7.72",
-      "discount_from_window_high_pct": "7.72",
+      "current_vs_window_high_pct": "-7.55",
+      "discount_from_window_high_pct": "7.55",
       "lower_trend_pct": "-1.67",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 16000,
       "intraday_institution_net_qty": -13000,
       "intraday_combined_net_qty": 3000,
-      "intraday_flow_strength_pct": "4.09",
+      "intraday_flow_strength_pct": "4.08",
       "closes": [
         "212500",
         "209500",
@@ -158657,7 +158657,7 @@
         "202000",
         "200500",
         "200000",
-        "199600"
+        "199700"
       ],
       "chart_bars": [
         {
@@ -159539,8 +159539,8 @@
           "open": "200000",
           "high": "200500",
           "low": "199600",
-          "close": "199600",
-          "volume": "3942"
+          "close": "199700",
+          "volume": "4025"
         }
       ],
       "base_rank_14d": 155,
@@ -159550,7 +159550,7 @@
       "symbol": "004990",
       "name": "롯데지주",
       "live_rank_14d": 158,
-      "live_price": 23650,
+      "live_price": 23700,
       "live_position_pct": "86.60",
       "box_low": "22035.00",
       "box_high": "23900.00",
@@ -159574,7 +159574,7 @@
       "intraday_foreign_net_qty": -23000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -23000,
-      "intraday_flow_strength_pct": "-26.51",
+      "intraday_flow_strength_pct": "-26.49",
       "closes": [
         "23650",
         "23850",
@@ -159673,7 +159673,7 @@
         "23700",
         "23600",
         "23650",
-        "23650"
+        "23700"
       ],
       "chart_bars": [
         {
@@ -160555,8 +160555,8 @@
           "open": "23700",
           "high": "23700",
           "low": "23600",
-          "close": "23650",
-          "volume": "5739"
+          "close": "23700",
+          "volume": "5753"
         }
       ],
       "base_rank_14d": 162,
@@ -160567,7 +160567,7 @@
       "name": "KB금융",
       "live_rank_14d": 159,
       "live_price": 165900,
-      "live_position_pct": "16.65",
+      "live_position_pct": "21.20",
       "box_low": "164070.00",
       "box_high": "175060.00",
       "target_price_10pct": "180477.00",
@@ -160582,15 +160582,15 @@
       "reach_days_5pct": 1,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-6.63",
-      "discount_from_window_high_pct": "6.63",
-      "lower_trend_pct": "0.18",
+      "current_vs_window_high_pct": "-6.31",
+      "discount_from_window_high_pct": "6.31",
+      "lower_trend_pct": "0.12",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -12000,
       "intraday_institution_net_qty": -5000,
       "intraday_combined_net_qty": -17000,
-      "intraday_flow_strength_pct": "-2.88",
+      "intraday_flow_strength_pct": "-2.87",
       "closes": [
         "166900",
         "168000",
@@ -161570,9 +161570,9 @@
           "bucket": "15",
           "open": "166500",
           "high": "166700",
-          "low": "165900",
+          "low": "165800",
           "close": "165900",
-          "volume": "8212"
+          "volume": "9010"
         }
       ],
       "base_rank_14d": 187,
@@ -161583,7 +161583,7 @@
       "name": "한국전력",
       "live_rank_14d": 160,
       "live_price": 35400,
-      "live_position_pct": "77.18",
+      "live_position_pct": "80.54",
       "box_low": "33100.00",
       "box_high": "36080.00",
       "target_price_10pct": "36410.00",
@@ -161598,15 +161598,15 @@
       "reach_days_5pct": 1,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-3.11",
-      "discount_from_window_high_pct": "3.11",
+      "current_vs_window_high_pct": "-2.82",
+      "discount_from_window_high_pct": "2.82",
       "lower_trend_pct": "1.15",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 27000,
       "intraday_institution_net_qty": 15000,
       "intraday_combined_net_qty": 42000,
-      "intraday_flow_strength_pct": "4.28",
+      "intraday_flow_strength_pct": "4.27",
       "closes": [
         "36200",
         "35850",
@@ -162586,9 +162586,9 @@
           "bucket": "15",
           "open": "35500",
           "high": "35550",
-          "low": "35400",
+          "low": "35350",
           "close": "35400",
-          "volume": "11418"
+          "volume": "11626"
         }
       ],
       "base_rank_14d": 188,
@@ -162599,7 +162599,7 @@
       "name": "동원산업",
       "live_rank_14d": 161,
       "live_price": 36250,
-      "live_position_pct": "57.58",
+      "live_position_pct": "59.09",
       "box_low": "34350.00",
       "box_high": "37650.00",
       "target_price_10pct": "37785.00",
@@ -162614,15 +162614,15 @@
       "reach_days_5pct": 2,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-4.97",
-      "discount_from_window_high_pct": "4.97",
+      "current_vs_window_high_pct": "-4.82",
+      "discount_from_window_high_pct": "4.82",
       "lower_trend_pct": "7.57",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 10000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": 10000,
-      "intraday_flow_strength_pct": "27.39",
+      "intraday_flow_strength_pct": "27.34",
       "closes": [
         "35150",
         "35700",
@@ -163604,7 +163604,7 @@
           "high": "36500",
           "low": "36250",
           "close": "36250",
-          "volume": "2820"
+          "volume": "2887"
         }
       ],
       "base_rank_14d": 161,
@@ -163615,7 +163615,7 @@
       "name": "코리안리",
       "live_rank_14d": 162,
       "live_price": 14340,
-      "live_position_pct": "72.55",
+      "live_position_pct": "74.11",
       "box_low": "13407.00",
       "box_high": "14693.00",
       "target_price_10pct": "14747.70",
@@ -163630,15 +163630,15 @@
       "reach_days_5pct": 4,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-3.70",
-      "discount_from_window_high_pct": "3.70",
+      "current_vs_window_high_pct": "-3.55",
+      "discount_from_window_high_pct": "3.55",
       "lower_trend_pct": "5.22",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 11000,
       "intraday_institution_net_qty": -7000,
       "intraday_combined_net_qty": 4000,
-      "intraday_flow_strength_pct": "2.14",
+      "intraday_flow_strength_pct": "2.13",
       "closes": [
         "14090",
         "14180",
@@ -164620,7 +164620,7 @@
           "high": "14380",
           "low": "14320",
           "close": "14340",
-          "volume": "3204"
+          "volume": "3327"
         }
       ],
       "base_rank_14d": 164,
@@ -164654,7 +164654,7 @@
       "intraday_foreign_net_qty": 54000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": 54000,
-      "intraday_flow_strength_pct": "37.01",
+      "intraday_flow_strength_pct": "36.88",
       "closes": [
         "35500",
         "35350",
@@ -165636,7 +165636,7 @@
           "high": "36700",
           "low": "36550",
           "close": "36550",
-          "volume": "2838"
+          "volume": "3271"
         }
       ],
       "base_rank_14d": 163,
@@ -165646,8 +165646,8 @@
       "symbol": "000240",
       "name": "한국앤컴퍼니",
       "live_rank_14d": 164,
-      "live_price": 25300,
-      "live_position_pct": "49.06",
+      "live_price": 25250,
+      "live_position_pct": "57.10",
       "box_low": "24385.00",
       "box_high": "26250.00",
       "target_price_10pct": "26823.50",
@@ -165662,15 +165662,15 @@
       "reach_days_5pct": 1,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-5.53",
-      "discount_from_window_high_pct": "5.53",
+      "current_vs_window_high_pct": "-4.91",
+      "discount_from_window_high_pct": "4.91",
       "lower_trend_pct": "0.80",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 5000,
       "intraday_institution_net_qty": 11000,
       "intraday_combined_net_qty": 16000,
-      "intraday_flow_strength_pct": "17.64",
+      "intraday_flow_strength_pct": "17.59",
       "closes": [
         "25600",
         "25350",
@@ -165769,7 +165769,7 @@
         "26050",
         "25650",
         "25550",
-        "25300"
+        "25250"
       ],
       "chart_bars": [
         {
@@ -166651,8 +166651,8 @@
           "open": "25550",
           "high": "25575",
           "low": "25200",
-          "close": "25300",
-          "volume": "3754"
+          "close": "25250",
+          "volume": "3843"
         }
       ],
       "base_rank_14d": 189,
@@ -166663,7 +166663,7 @@
       "name": "HMM",
       "live_rank_14d": 165,
       "live_price": 21250,
-      "live_position_pct": "72.00",
+      "live_position_pct": "74.80",
       "box_low": "19964.00",
       "box_high": "21750.00",
       "target_price_10pct": "21960.40",
@@ -166678,15 +166678,15 @@
       "reach_days_5pct": 4,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-4.00",
-      "discount_from_window_high_pct": "4.00",
+      "current_vs_window_high_pct": "-3.76",
+      "discount_from_window_high_pct": "3.76",
       "lower_trend_pct": "2.41",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -19000,
       "intraday_institution_net_qty": 11000,
       "intraday_combined_net_qty": -8000,
-      "intraday_flow_strength_pct": "-1.04",
+      "intraday_flow_strength_pct": "-1.03",
       "closes": [
         "21700",
         "21700",
@@ -167668,7 +167668,7 @@
           "high": "21350",
           "low": "21250",
           "close": "21250",
-          "volume": "12192"
+          "volume": "16838"
         }
       ],
       "base_rank_14d": 165,
@@ -168694,8 +168694,8 @@
       "symbol": "031210",
       "name": "서울보증보험",
       "live_rank_14d": 167,
-      "live_price": 44050,
-      "live_position_pct": "84.13",
+      "live_price": 44000,
+      "live_position_pct": "82.54",
       "box_low": "41400.00",
       "box_high": "44550.00",
       "target_price_10pct": "45540.00",
@@ -168710,15 +168710,15 @@
       "reach_days_5pct": 0,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-2.16",
-      "discount_from_window_high_pct": "2.16",
-      "lower_trend_pct": "4.26",
+      "current_vs_window_high_pct": "-2.27",
+      "discount_from_window_high_pct": "2.27",
+      "lower_trend_pct": "4.14",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -9000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -9000,
-      "intraday_flow_strength_pct": "-43.55",
+      "intraday_flow_strength_pct": "-42.86",
       "closes": [
         "42450",
         "42800",
@@ -168817,7 +168817,7 @@
         "44550",
         "44300",
         "44050",
-        "44050"
+        "44000"
       ],
       "chart_bars": [
         {
@@ -169698,9 +169698,9 @@
           "bucket": "15",
           "open": "44150",
           "high": "44300",
-          "low": "44050",
-          "close": "44050",
-          "volume": "1208"
+          "low": "44000",
+          "close": "44000",
+          "volume": "1544"
         }
       ],
       "base_rank_14d": 191,
@@ -169710,8 +169710,8 @@
       "symbol": "139480",
       "name": "이마트",
       "live_rank_14d": 168,
-      "live_price": 80100,
-      "live_position_pct": "43.62",
+      "live_price": 80000,
+      "live_position_pct": "41.96",
       "box_low": "77470.00",
       "box_high": "83500.00",
       "target_price_10pct": "85217.00",
@@ -169726,15 +169726,15 @@
       "reach_days_5pct": 1,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-4.99",
-      "discount_from_window_high_pct": "4.99",
+      "current_vs_window_high_pct": "-5.12",
+      "discount_from_window_high_pct": "5.12",
       "lower_trend_pct": "-2.09",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -6000,
       "intraday_institution_net_qty": 0,
       "intraday_combined_net_qty": -6000,
-      "intraday_flow_strength_pct": "-8.26",
+      "intraday_flow_strength_pct": "-8.25",
       "closes": [
         "83500",
         "83200",
@@ -169833,7 +169833,7 @@
         "80100",
         "80000",
         "79900",
-        "80100"
+        "80000"
       ],
       "chart_bars": [
         {
@@ -170715,8 +170715,8 @@
           "open": "80000",
           "high": "80100",
           "low": "79900",
-          "close": "80100",
-          "volume": "2421"
+          "close": "80000",
+          "volume": "2435"
         }
       ],
       "base_rank_14d": 192,
@@ -170726,8 +170726,8 @@
       "symbol": "138930",
       "name": "BNK금융지주",
       "live_rank_14d": 169,
-      "live_price": 14690,
-      "live_position_pct": "0.09",
+      "live_price": 14720,
+      "live_position_pct": "-0.20",
       "box_low": "14687.00",
       "box_high": "18103.00",
       "target_price_10pct": "16155.70",
@@ -170742,15 +170742,15 @@
       "reach_days_5pct": 1,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-26.21",
-      "discount_from_window_high_pct": "26.21",
+      "current_vs_window_high_pct": "-26.29",
+      "discount_from_window_high_pct": "26.29",
       "lower_trend_pct": "-16.23",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": -331000,
       "intraday_institution_net_qty": -11000,
       "intraday_combined_net_qty": -342000,
-      "intraday_flow_strength_pct": "-53.25",
+      "intraday_flow_strength_pct": "-53.24",
       "closes": [
         "17830",
         "17740",
@@ -170849,7 +170849,7 @@
         "14740",
         "14720",
         "14720",
-        "14690"
+        "14720"
       ],
       "chart_bars": [
         {
@@ -171731,8 +171731,8 @@
           "open": "14720",
           "high": "14730",
           "low": "14680",
-          "close": "14690",
-          "volume": "8270"
+          "close": "14720",
+          "volume": "8315"
         }
       ],
       "base_rank_14d": 171,
@@ -171766,7 +171766,7 @@
       "intraday_foreign_net_qty": -6000,
       "intraday_institution_net_qty": 1000,
       "intraday_combined_net_qty": -5000,
-      "intraday_flow_strength_pct": "-13.30",
+      "intraday_flow_strength_pct": "-13.27",
       "closes": [
         "26200",
         "26450",
@@ -172748,7 +172748,7 @@
           "high": "26200",
           "low": "26050",
           "close": "26050",
-          "volume": "2569"
+          "volume": "2656"
         }
       ],
       "base_rank_14d": 193,
@@ -172758,7 +172758,7 @@
       "symbol": "024110",
       "name": "기업은행",
       "live_rank_14d": 171,
-      "live_price": 20200,
+      "live_price": 20150,
       "live_position_pct": "9.35",
       "box_low": "20085.00",
       "box_high": "21315.00",
@@ -172881,7 +172881,7 @@
         "20250",
         "20200",
         "20150",
-        "20200"
+        "20150"
       ],
       "chart_bars": [
         {
@@ -173762,9 +173762,9 @@
           "bucket": "15",
           "open": "20200",
           "high": "20200",
-          "low": "20100",
-          "close": "20200",
-          "volume": "27699"
+          "low": "20150",
+          "close": "20150",
+          "volume": "26433"
         }
       ],
       "base_rank_14d": 195,
@@ -174790,8 +174790,8 @@
       "symbol": "030000",
       "name": "제일기획",
       "live_rank_14d": 173,
-      "live_price": 18910,
-      "live_position_pct": "36.86",
+      "live_price": 18900,
+      "live_position_pct": "35.15",
       "box_low": "18694.00",
       "box_high": "19280.00",
       "target_price_10pct": "20563.40",
@@ -174806,15 +174806,15 @@
       "reach_days_5pct": 0,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-2.86",
-      "discount_from_window_high_pct": "2.86",
+      "current_vs_window_high_pct": "-2.91",
+      "discount_from_window_high_pct": "2.91",
       "lower_trend_pct": "0.91",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 17000,
       "intraday_institution_net_qty": -10000,
       "intraday_combined_net_qty": 7000,
-      "intraday_flow_strength_pct": "3.62",
+      "intraday_flow_strength_pct": "3.64",
       "closes": [
         "18940",
         "19000",
@@ -174913,7 +174913,7 @@
         "18955",
         "18945",
         "18940",
-        "18910"
+        "18900"
       ],
       "chart_bars": [
         {
@@ -175795,8 +175795,8 @@
           "open": "18940",
           "high": "18950",
           "low": "18900",
-          "close": "18910",
-          "volume": "12378"
+          "close": "18900",
+          "volume": "11715"
         }
       ],
       "base_rank_14d": 197,
@@ -175830,7 +175830,7 @@
       "intraday_foreign_net_qty": 8000,
       "intraday_institution_net_qty": 15000,
       "intraday_combined_net_qty": 23000,
-      "intraday_flow_strength_pct": "11.45",
+      "intraday_flow_strength_pct": "11.34",
       "closes": [
         "53700",
         "53400",
@@ -176812,7 +176812,7 @@
           "high": "53000",
           "low": "52600",
           "close": "52700",
-          "volume": "5759"
+          "volume": "5988"
         }
       ],
       "base_rank_14d": 198,
@@ -176822,8 +176822,8 @@
       "symbol": "035250",
       "name": "강원랜드",
       "live_rank_14d": 175,
-      "live_price": 14540,
-      "live_position_pct": "63.49",
+      "live_price": 14580,
+      "live_position_pct": "73.63",
       "box_low": "14227.00",
       "box_high": "14720.00",
       "target_price_10pct": "15649.70",
@@ -176838,15 +176838,15 @@
       "reach_days_5pct": 0,
       "reach_days_10pct": 0,
       "reach_days_15pct": 0,
-      "current_vs_window_high_pct": "-2.27",
-      "discount_from_window_high_pct": "2.27",
+      "current_vs_window_high_pct": "-1.92",
+      "discount_from_window_high_pct": "1.92",
       "lower_trend_pct": "2.18",
       "intraday_flow_status": "READY",
       "intraday_flow_observation": "5",
       "intraday_foreign_net_qty": 7000,
       "intraday_institution_net_qty": 5000,
       "intraday_combined_net_qty": 12000,
-      "intraday_flow_strength_pct": "7.02",
+      "intraday_flow_strength_pct": "6.99",
       "closes": [
         "14500",
         "14480",
@@ -176945,7 +176945,7 @@
         "14570",
         "14550",
         "14570",
-        "14540"
+        "14580"
       ],
       "chart_bars": [
         {
@@ -177827,8 +177827,8 @@
           "open": "14560",
           "high": "14620",
           "low": "14530",
-          "close": "14540",
-          "volume": "5081"
+          "close": "14580",
+          "volume": "5150"
         }
       ],
       "base_rank_14d": 199,
