@@ -116,6 +116,9 @@ main { flex: 1 1 auto; min-height: 0; padding: 8px 8px 0; overflow: hidden; }
 .grade-strong-avoid { color: #9e2424; background: #ffe3e3; }
 .pos, .up { color: var(--red); background: var(--red-bg) !important; }
 .neg, .down { color: var(--blue-text); background: var(--blue-bg) !important; }
+.eligibility { display: inline-block; min-width: 42px; padding: 3px 6px; border-radius: 4px; font-weight: 700; }
+.eligibility-target { color: #245fb8; background: #e5efff; }
+.eligibility-excluded { color: #b9433b; background: #fdebea; }
 .good { color: var(--green); background: var(--green-bg) !important; }
 .warn { color: var(--amber); background: var(--amber-bg) !important; }
 .position { min-width: 92px; }
@@ -291,12 +294,12 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
             <thead>
               <tr>
                 <th class="sticky-select">선택</th><th class="sticky-rank rank-reset"><button type="button" data-rank-reset title="공식 순위 1위부터 복원">순위</button></th><th class="sticky-name">종목명</th>
-                <th>현재가</th><th title="분봉 준비 시 첫 60분봉 종가, 준비 중에는 첫 거래일 종가 대비 현재가 변화율">기간수익률</th><th title="선택 기간 실제 최고가 대비 현재가의 등락률">기간고점 대비</th><th>가격 흐름</th>
+                <th>현재가</th><th class="sortable-column" data-sort-key="opportunityScore"><button type="button">기회점수 <span class="sort-indicator" aria-hidden="true"></span></button></th><th>적격 후보</th><th title="분봉 준비 시 첫 60분봉 종가, 준비 중에는 첫 거래일 종가 대비 현재가 변화율">기간수익률</th><th title="선택 기간 실제 최고가 대비 현재가의 등락률">기간고점 대비</th><th>가격 흐름</th>
                 <th title="선택 기간의 박스 하단 가격">기간 최저가</th><th title="기간 최저가에서 10% 상승한 목표 가격">+10% 목표가</th><th title="선택 기간의 박스 상단 가격">기간 최고가</th>
                 <th>현재 위치</th><th class="sortable-column" data-sort-key="lowerTrend" title="첫 거래일 저가 대비 마지막 거래일 저가의 변화율"><button type="button">상승세 <span class="sort-indicator" aria-hidden="true"></span></button></th>
                 <th class="sortable-column" data-sort-key="averageUpSwing" title="1분봉 비중복 상승 구간의 평균 저점 대비 고점 상승률"><button type="button">반복 상승폭 <span class="sort-indicator" aria-hidden="true"></span></button></th><th class="sortable-column" data-sort-key="upSwingCount" title="저점에서 6% 이상 상승한 비중복 구간 수"><button type="button">반복 횟수 <span class="sort-indicator" aria-hidden="true"></span></button></th><th title="각 저점에서 최초 6% 상승까지 걸린 평균 거래시간">도달시간</th>
                 <th>개인(순매수억)</th><th>외국인(순매수억)</th><th>기관(순매수억)</th><th>금융투자(순매수억)</th><th>연기금(순매수억)</th><th class="sortable-column compact-header" data-sort-key="flowStrength"><button type="button">외국인+기관<br>수급강도(%) <span class="sort-indicator" aria-hidden="true"></span></button></th>
-                <th class="sortable-column" data-sort-key="quantScore"><button type="button">정량점수 <span class="sort-indicator" aria-hidden="true"></span></button></th><th id="reviewCommentHeader">AI 종합 코멘트</th>
+                <th id="reviewCommentHeader">AI 종합 코멘트</th>
                 <th>최신 뉴스</th><th>종목토론</th><th>차트보기</th>
               </tr>
             </thead>
@@ -371,7 +374,8 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
   })[char]);
   const n = (value) => Number(value);
   const metric = (candidate) => candidate.windows[state.window];
-  const baseRank = (candidate) => candidate.windows["14"]?.rank ?? metric(candidate).rank ?? 999;
+  const baseRank = (candidate) => candidate.opportunity_rank_14d
+    ?? candidate.windows["14"]?.rank ?? metric(candidate).rank ?? 999;
   const sortValue = (candidate) => {
     const item = metric(candidate);
     return ({
@@ -379,7 +383,7 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
       averageUpSwing: item.average_up_swing_pct,
       upSwingCount: item.up_swing_count,
       flowStrength: item.flows?.strength_pct,
-      quantScore: item.quant_score,
+      opportunityScore: candidate.opportunity_score_preliminary,
     })[state.sortKey];
   };
   const ranked = () => [...candidates].sort((a, b) => {
@@ -614,9 +618,11 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
       const selectionLabel = official ? `${candidate.name} 선택` : `${candidate.name} 확장 관찰군`;
       return `<tr class="${official ? "" : "extended-watch-row"}">
         <td class="sticky-select"><input class="candidate-check" data-select-code="${h(candidate.code)}" type="checkbox" aria-label="${h(selectionLabel)}" ${selection.has(candidate.code) ? "checked" : ""} ${selectable ? "" : "disabled"}></td>
-        <td class="sticky-rank">${structureCell(item, `${item.rank}${official ? "" : '<small class="extended-badge">관찰</small>'}`)}</td>
+        <td class="sticky-rank">${structureCell(item, `${baseRank(candidate)}${official ? "" : '<small class="extended-badge">관찰</small>'}`)}</td>
         ${stockCell(candidate)}
         <td>${won.format(n(candidate.current_price))}</td>
+        <td>${candidate.opportunity_score_preliminary == null ? "-" : one.format(n(candidate.opportunity_score_preliminary))}</td>
+        <td><span class="eligibility ${candidate.pullback_eligible ? "eligibility-target" : "eligibility-excluded"}">${candidate.pullback_eligible ? "대상" : "비대상"}</span></td>
         <td class="${tone(item.return_pct)}"><b>${percent(item.return_pct)}</b></td>
         <td class="${tone(item.current_vs_window_high_pct)}">${structureCell(item, `<b>${percent(item.current_vs_window_high_pct)}</b>`)}</td>
         <td>${structureCell(item, sparkline(item, candidate.name, candidate.code))}</td>
@@ -634,7 +640,6 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
         <td class="${tone(flows.financial_investment)}">${signed(flows.financial_investment)}</td>
         <td class="${tone(flows.pension)}">${signed(flows.pension)}</td>
         <td class="${tone(flows.strength_pct)}"><b>${percent(flows.strength_pct)}</b></td>
-        <td>${structureCell(item, one.format(n(item.quant_score)))}</td>
         <td class="wrap">${structureCell(item, item.ai_comment ? h(item.ai_comment) : "AI 종합 코멘트 대상 외")}</td>
         <td class="news-cell">${newsHtml(candidate)}</td>
         <td class="discussion">${discussionHtml(candidate)}</td>
@@ -891,7 +896,7 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
       const item = metric(candidate);
       const draft = selection.get(candidate.code);
       lines.push(
-        `- rank: ${item.rank}`, `  symbol: ${candidate.code}`, `  name: ${candidate.name}`,
+        `- rank: ${baseRank(candidate)}`, `  symbol: ${candidate.code}`, `  name: ${candidate.name}`,
         `  entry_target_price_krw: ${draft.entryTargetPrice}`,
         `  entry_price_source: ${draft.auto ? "BOX_LOW_AUTO" : "USER_EDITED"}`,
         `  allocation_pct: ${allocationOne.format(draft.allocationPct)}`,
@@ -942,6 +947,10 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
         const candidate = byCode.get(row.symbol);
         if (!candidate || !candidate.windows?.["14"]) return;
         candidate.current_price = row.live_price;
+        candidate.opportunity_rank_14d = row.opportunity_rank_14d;
+        candidate.opportunity_score_preliminary = row.opportunity_score_preliminary;
+        candidate.pullback_eligible = row.pullback_eligible === true;
+        candidate.pullback_rejection_reasons = row.pullback_rejection_reasons ?? [];
         const metrics = candidate.windows["14"];
         metrics.rank = row.live_rank_14d;
         metrics.position_pct = row.live_position_pct;
