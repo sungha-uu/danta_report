@@ -930,11 +930,21 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
       });
       if (!response.ok) return;
       const overlay = await response.json();
+      const minimumCoverage = String(overlay.market_division).toUpperCase() === "J"
+        ? 180
+        : 160;
       if (overlay.report_data_as_of !== report.data_as_of
-          || Number(overlay.coverage) < 180
+          || Number(overlay.coverage) < minimumCoverage
           || !Array.isArray(overlay.rows)
-          || overlay.rows.length < 180) return;
+          || overlay.rows.length < minimumCoverage) return;
       const byCode = new Map(candidates.map((candidate) => [candidate.code, candidate]));
+      const receivedCodes = new Set();
+      candidates.forEach((candidate) => {
+        candidate.opportunity_rank_14d = null;
+        candidate.opportunity_score_preliminary = null;
+        candidate.pullback_eligible = false;
+        candidate.pullback_rejection_reasons = ["OVERLAY_DATA_UNAVAILABLE"];
+      });
       const metricFields = [
         "box_low", "box_high", "target_price_10pct", "amplitude_pct",
         "average_up_swing_pct", "up_swing_count", "average_time_to_6pct_hours",
@@ -946,6 +956,7 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
       overlay.rows.forEach((row) => {
         const candidate = byCode.get(row.symbol);
         if (!candidate || !candidate.windows?.["14"]) return;
+        receivedCodes.add(candidate.code);
         candidate.current_price = row.live_price;
         candidate.opportunity_rank_14d = row.opportunity_rank_14d;
         candidate.opportunity_score_preliminary = row.opportunity_score_preliminary;
@@ -964,6 +975,16 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
         }
         metrics.lower_trend = Number(row.lower_trend_pct) >= 0 ? "상승" : "하락";
       });
+      const lastReceivedRank = overlay.rows.reduce((highest, row) => {
+        const rank = Number(row.opportunity_rank_14d);
+        return Number.isFinite(rank) ? Math.max(highest, rank) : highest;
+      }, 0);
+      candidates
+        .filter((candidate) => !receivedCodes.has(candidate.code))
+        .sort((a, b) => (a.windows["14"]?.rank ?? 999) - (b.windows["14"]?.rank ?? 999))
+        .forEach((candidate, index) => {
+          candidate.opportunity_rank_14d = lastReceivedRank + index + 1;
+        });
       $("#dataAsOf").textContent = `기준 ${formatDate(report.data_as_of)} · 장중 ${formatDate(overlay.observed_at)}`;
       renderAll();
     } catch {
