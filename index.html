@@ -281,7 +281,7 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
         <div class="section-bar">
           <div>
             <h2 id="candidateCountTitle">📊 검토 후보</h2>
-            <p id="analysisDescription">반복 변동성·가격 위치와 10분 장중 추정수급을 한 행에서 비교합니다.</p>
+            <p id="analysisDescription">반복 변동성·가격 위치와 장후 확정 수급을 한 행에서 비교합니다. 수급은 자동매매에 사용하지 않습니다.</p>
           </div>
           <div class="filters">
             <form id="candidateSearch" class="candidate-search" role="search">
@@ -299,7 +299,7 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
               <tr>
                 <th class="sticky-select">선택</th><th class="sticky-rank rank-reset"><button type="button" data-rank-reset title="공식 순위 1위부터 복원">순위</button></th><th class="sticky-name">종목명</th>
                 <th>현재가</th><th class="sortable-column" data-sort-key="opportunityScore"><button type="button">기회점수 <span class="sort-indicator" aria-hidden="true"></span></button></th><th>적격 후보</th><th title="분봉 준비 시 첫 60분봉 종가, 준비 중에는 첫 거래일 종가 대비 현재가 변화율">기간수익률</th><th title="선택 기간 실제 최고가 대비 현재가의 등락률">기간고점 대비</th><th>가격 흐름</th>
-                <th class="sortable-column compact-header" data-sort-key="flowStrength"><button type="button">장중 합산<br>수급강도(%) <span class="sort-indicator" aria-hidden="true"></span></button></th><th>외국인<br>장중강도·순매수</th><th>기관<br>장중강도·순매수</th>
+                <th class="sortable-column compact-header" data-sort-key="flowStrength"><button type="button">확정 합산<br>수급강도(%) <span class="sort-indicator" aria-hidden="true"></span></button></th><th>외국인<br>확정 순매수(억)</th><th>기관<br>확정 순매수(억)</th>
                 <th title="선택 기간의 박스 하단 가격">기간 최저가</th><th title="기간 최저가에서 10% 상승한 목표 가격">+10% 목표가</th><th title="선택 기간의 박스 상단 가격">기간 최고가</th>
                 <th>현재 위치</th><th class="sortable-column" data-sort-key="lowerTrend" title="첫 거래일 저가 대비 마지막 거래일 저가의 변화율"><button type="button">상승세 <span class="sort-indicator" aria-hidden="true"></span></button></th>
                 <th class="sortable-column" data-sort-key="averageUpSwing" title="1분봉 비중복 상승 구간의 평균 저점 대비 고점 상승률"><button type="button">반복 상승폭 <span class="sort-indicator" aria-hidden="true"></span></button></th><th class="sortable-column" data-sort-key="upSwingCount" title="저점에서 6% 이상 상승한 비중복 구간 수"><button type="button">반복 횟수 <span class="sort-indicator" aria-hidden="true"></span></button></th><th title="각 저점에서 최초 6% 상승까지 걸린 평균 거래시간">도달시간</th>
@@ -386,7 +386,7 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
       lowerTrend: item.lower_trend_pct,
       averageUpSwing: item.average_up_swing_pct,
       upSwingCount: item.up_swing_count,
-      flowStrength: candidate.intraday_flow_strength_pct,
+      flowStrength: item.flows?.strength_pct,
       opportunityScore: candidate.opportunity_score_preliminary,
     })[state.sortKey];
   };
@@ -643,9 +643,9 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
         <td class="${tone(item.return_pct)}"><b>${percent(item.return_pct)}</b></td>
         <td class="${tone(item.current_vs_window_high_pct)}">${structureCell(item, `<b>${percent(item.current_vs_window_high_pct)}</b>`)}</td>
         <td>${structureCell(item, sparkline(item, candidate.name, candidate.code))}</td>
-        <td class="${tone(candidate.intraday_flow_strength_pct)}">${hasLiveFlow(candidate.intraday_flow_strength_pct) ? `<b>${percent(candidate.intraday_flow_strength_pct)}</b>` : "-"}</td>
-        <td class="${tone(candidate.intraday_foreign_strength_pct)}">${liveFlowCell(candidate.intraday_foreign_strength_pct, candidate.intraday_foreign_net_qty)}</td>
-        <td class="${tone(candidate.intraday_institution_strength_pct)}">${liveFlowCell(candidate.intraday_institution_strength_pct, candidate.intraday_institution_net_qty)}</td>
+        <td class="${tone(item.flows?.strength_pct)}">${item.flows ? `<b>${percent(item.flows.strength_pct)}</b>` : "-"}</td>
+        <td class="${tone(item.flows?.foreign)}">${item.flows ? one.format(n(item.flows.foreign)) : "-"}</td>
+        <td class="${tone(item.flows?.institution)}">${item.flows ? one.format(n(item.flows.institution)) : "-"}</td>
         <td>${structureCell(item, won.format(n(item.box_low)))}</td>
         <td>${structureCell(item, won.format(n(item.target_price_10pct)))}</td>
         <td>${structureCell(item, won.format(n(item.box_high)))}</td>
@@ -958,11 +958,6 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
         candidate.opportunity_score_preliminary = null;
         candidate.pullback_eligible = false;
         candidate.pullback_rejection_reasons = ["OVERLAY_DATA_UNAVAILABLE"];
-        candidate.intraday_flow_strength_pct = null;
-        candidate.intraday_foreign_strength_pct = null;
-        candidate.intraday_institution_strength_pct = null;
-        candidate.intraday_foreign_net_qty = null;
-        candidate.intraday_institution_net_qty = null;
       });
       const metricFields = [
         "box_low", "box_high", "target_price_10pct", "amplitude_pct",
@@ -981,11 +976,6 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
         candidate.opportunity_score_preliminary = row.opportunity_score_preliminary;
         candidate.pullback_eligible = row.pullback_eligible === true;
         candidate.pullback_rejection_reasons = row.pullback_rejection_reasons ?? [];
-        candidate.intraday_flow_strength_pct = row.intraday_flow_strength_pct;
-        candidate.intraday_foreign_strength_pct = row.intraday_foreign_strength_pct;
-        candidate.intraday_institution_strength_pct = row.intraday_institution_strength_pct;
-        candidate.intraday_foreign_net_qty = row.intraday_foreign_net_qty;
-        candidate.intraday_institution_net_qty = row.intraday_institution_net_qty;
         const metrics = candidate.windows["14"];
         metrics.rank = row.live_rank_14d;
         metrics.position_pct = row.live_position_pct;
@@ -1010,7 +1000,7 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
           candidate.opportunity_rank_14d = lastReceivedRank + index + 1;
         });
       $("#dataAsOf").textContent = `기준 ${formatDate(report.data_as_of)} · 장중 ${formatDate(overlay.observed_at)}`;
-      $("#analysisDescription").textContent = `반복 변동성·가격 위치와 장중 추정수급을 비교합니다. 수급 관측 ${formatDate(overlay.observed_at)}`;
+      $("#analysisDescription").textContent = `반복 변동성·가격 위치를 10분 가격 오버레이로 갱신합니다. 확정 수급은 표시 전용입니다. 가격 관측 ${formatDate(overlay.observed_at)}`;
       renderAll();
     } catch {
       // Static Pages keeps the last complete 16:00 report when overlay fetch fails.
@@ -1132,12 +1122,12 @@ footer { flex: 0 0 auto; min-height: 25px; padding: 5px 10px; display: flex; jus
   }
   if (quantBaseline) {
     if (actionable) {
-      $("#analysisDescription").textContent = "박스·수익률·차트·수급·정량 기준선을 한 행에서 비교합니다. AI 정성 검토는 아직 미연결입니다.";
+      $("#analysisDescription").textContent = "박스·수익률·차트·장후 확정 수급·정량 기준선을 한 행에서 비교합니다. 확정 수급은 표시 전용입니다.";
     }
     $("#reviewCommentHeader").textContent = "정량 코멘트";
   }
   if (agentContextReview) {
-    $("#analysisDescription").textContent = "시가총액 상위 200개는 모두 주문 선택 가능하며, 정량 상위 50개의 수급·뉴스·공시·종목토론을 심층 검토합니다.";
+    $("#analysisDescription").textContent = "시가총액 상위 200개는 모두 주문 선택 가능하며, 수급은 장후 확정 현황만 표시하고 자동매매에는 사용하지 않습니다.";
     $("#reviewCommentHeader").textContent = "AI 종합 코멘트";
   }
   renderAll();
